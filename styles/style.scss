@@ -12,10 +12,22 @@ body, html {
   justify-content: center;
   align-content: center; 
   
-  .pageText {
-    @include centeredContent;
-  }
 } 
+.pageText {
+  @include centeredContent;
+}
+.foundersBlock {
+  @include centeredContent;
+}
+.redText {
+  color: #b6352d;
+  font-weight: bold;
+}
+.foundersBlock{
+  background-color: #b6352d;
+  height: 50vh;
+}
+
 
 .container, #__next {
     width: 100vw;

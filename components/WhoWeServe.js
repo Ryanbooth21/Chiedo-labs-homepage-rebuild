@@ -6,8 +6,8 @@ const WhoWeServe = () => {
 
         <Container fluid style={{ lineHeight: '32px' }}>
         <Row>
-          <Col><h3>WHO WE SERVE</h3><br/><p>Enterprise customers hire us to build and maintain the web apps critical to their operations. 
-          Tech startups partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p></Col>
+          <Col><h3><span className="redText">WHO</span> WE SERVE</h3><br/><p><span className="redText">Enterprise customers</span> hire us to build and maintain the web apps critical to their operations. 
+          <br/><span className="redText">Tech startups</span> partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p></Col>
           <Col>
           </Col>
         </Row>
