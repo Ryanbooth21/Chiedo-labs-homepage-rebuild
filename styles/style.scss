@@ -1,0 +1,37 @@
+$red: #b6352d;
+$grey: #333333;
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin centeredContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; 
+  
+  .pageText {
+    @include centeredContent;
+  }
+} 
+
+.container, #__next {
+    width: 100vw;
+}
+.nav{
+    text-decoration: underline;
+    border-bottom: 3px solid $red;
+    background-color: #333333;
+}
+.callToAction {
+    background-color: #333333;
+    height: 45vh;
+}
+
+.pageText{
+  background-color: #333333;
+  color: white;
+  height: 40vh;
+}
