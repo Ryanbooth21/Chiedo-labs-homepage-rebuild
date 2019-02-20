@@ -21,9 +21,9 @@ const Header = () => (
             <p className="callText callBody">We’re a team of web developers passionate about building stable, maintainable<br/> software for tech startups and enterprise customers.</p>
             <button className="btn">Get a quote</button>
         </Container>
-        <Container fluid id="ourTeam">
-            <h3>Hire our team to:</h3>
-            <p>Build and maintain: Web applications Web back-ends Web front-ends Custom websites</p>
+        <Container className="greybox" fluid id="ourTeam">
+            <h3 className="team White-title">Hire our team to:</h3>
+            <p className="team buildAndMaintain">Build and maintain: <span className="build-list">Web applications</span> <span className="build-list">Web back-ends</span> <span className="build-list">Web front-ends</span> <span className="build-list">Custom websites</span></p>
         </Container>
         
     <style jsx>{`
@@ -37,7 +37,7 @@ const Header = () => (
         }
         
         .callMain{
-            font-size: 6.3em;
+            font-size: 80px;
             width: 100vw;
             text-align: center;
             font-weight: 900;
@@ -49,9 +49,11 @@ const Header = () => (
             align-self: center;
         }
         .callBody {
-            font-size: 28px;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            font-size: 23px;
             text-align: center;
         }
+        
     `}</style>
     </>
         )

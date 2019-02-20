@@ -1,6 +1,7 @@
 $red: #b6352d;
 $grey: #333333;
 $lightGrey: #606060;
+$lighterGrey: #F2F2F2;
 
 body, html {
     margin: 0;
@@ -9,6 +10,8 @@ body, html {
 @mixin bodyStyle {
   font-size: 18px;
   line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 @mixin centeredContent {
@@ -16,25 +19,66 @@ body, html {
   flex-direction: column;
   justify-content: center;
   align-content: center; 
+  align-items: center;
 } 
+
+p {
+  @include bodyStyle;
+}
 .callText {
   @include centeredContent;
   align-self: center;
 }
 
-.foundersBlock {
-  @include centeredContent;
+#foundersBlock {
+  padding-top: 1em;
+  min-height: 50vh;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#founders-container {
+  background-color: $red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.founder {
+  display: flex;
+  justify-content: center;
+  
+}
+.founders-title {
+  margin-bottom: 0;
+  letter-spacing: 0.2em;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 1em;
+  max-width: 85vw;
 }
 .redText {
   color: #b6352d;
   font-weight: bold;
 }
-.foundersBlock{
-  background-color: #b6352d;
-  height: 50vh;
+.White-title {
+  font-size: 2.5em;
+  font-weight: 100;
+  color: white;
+  @include centeredContent;
+  text-align: center;
 }
-
-
+.greybox{
+  background-color: $grey;
+  color: #ffffff;
+}
+.lighterGreyBox {
+  background-color: $lighterGrey;
+}
 .container, #__next {
     width: 100vw;
 }
@@ -45,19 +89,19 @@ body, html {
     background-color: #333333;
 }
 .btn {
-    display: inline-block;
-    padding: 1.2em 1.4em;
-    margin-top: .8em;
-    height: 67px;
-    min-width: 180px;
-    max-width: 300px;
-    box-shadow: 3px 3px rgba(125,125,125,0.2);
-    background-color: #B92C2C;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #ffffff;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: .8em;
+  box-shadow: 3px 3px rgba(125,125,125,0.2);
+  background-color: #B92C2C;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
 #callToAction {
     background-color: $lightGrey;
@@ -73,9 +117,24 @@ body, html {
   align-self: center;
   height: 30vh;
 }
+.team{
+  align-self: center;
+  justify-content: center;
+}
 
+.buildAndMaintain {
+  font-size: 1.2em;
+  color: $red;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.build-list {
+  padding: 1em .7em 0 .7em;
+}
 #WhatWeDo {
-  padding: 2em 1em 2em 0;
+  padding: 2em 1em 2em 2em;
+  background-color: $lighterGrey;
+  height: 60vh;
   @include bodyStyle;
 }
 
@@ -83,3 +142,11 @@ body, html {
   padding: 2em 0 2em 1em;
   @include bodyStyle;
 }
+@media (min-width: 1266px) { 
+  #foundersBlock {
+    flex-direction: row;
+  }
+  .founder{
+    border: solid .5em transparent;
+  }
+ }

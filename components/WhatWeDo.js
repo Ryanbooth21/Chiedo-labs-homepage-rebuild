@@ -9,7 +9,7 @@ const WhatWeDo = () => {
           {/* <Col><img src={codeImage}/></Col> */}
           <Col></Col>
           <Col id="WhatWeDo">
-            <h3><span className="redText">WHAT</span> WE DO</h3>
+            <h3><span className="redText">WHAT</span> WE DO</h3><br/>
             <p>We build and maintain:</p>
             <p>Web Front-Ends with HTML, CSS, and a library called React.</p>
             <p>Web Back-ends using NodeJS, Ruby on Rails, PHP, MySQL, AWS, and Heroku.</p>
