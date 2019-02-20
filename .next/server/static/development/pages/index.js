@@ -158,7 +158,14 @@ var CultureBlog = function CultureBlog() {
       lineNumber: 8
     },
     __self: this
-  }, "We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, "We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-1471395879" + " " + "btn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     lg: 3,
     __source: {
       fileName: _jsxFileName,
@@ -175,7 +182,7 @@ var CultureBlog = function CultureBlog() {
   }, "Featured"), " Post"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEN1bHR1cmVCbG9nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdrQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1MYWJzLUhvbWVwYWdlXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxDdWx0dXJlQmxvZy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbnRhaW5lciwgUm93LCBDb2wgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnXHJcblxyXG5jb25zdCBDdWx0dXJlQmxvZyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICA8Um93PlxyXG4gICAgICAgICAgPENvbCBsZz17OX0+PGgzPlN0YXJ0LXVwIEN1bHR1cmUsIENvcnBvcmF0ZS1HcmFkZSBTZXJ2aWNlLjwvaDM+PGJyLz48cD5XZSBjcmVhdGUgYW4gYXRtb3NwaGVyZSB0aGF0IGZvc3RlcnMgY3JlYXRpdml0eSBhbmQgcHJvZmVzc2lvbmFsaXNtLiBJbiB0aGlzIHdheSwgd2UgYWxsb3cgb3VyIHRlYW0gdG8gaG9uZSB5b3VyIHZpc2lvbiB3aXRoIG91ciBkaWdpdGFsIHN0cmF0ZWd5IGFuZCBidWlsZCByZWFsaXRpZXMgdGhhdCB3aWxsIHRha2UgeW91ciBidXNpbmVzcyB0byB0aGUgbmV4dCBsZXZlbC48L3A+PC9Db2w+XHJcbiAgICAgICAgICA8Q29sIGxnPXszfT48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+RmVhdHVyZWQ8L3NwYW4+IFBvc3Q8L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgQ3VsdHVyZUJsb2ciXX0= */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\CultureBlog.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEN1bHR1cmVCbG9nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdrQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1MYWJzLUhvbWVwYWdlXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxDdWx0dXJlQmxvZy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbnRhaW5lciwgUm93LCBDb2wgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnXHJcblxyXG5jb25zdCBDdWx0dXJlQmxvZyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICA8Um93PlxyXG4gICAgICAgICAgPENvbCBsZz17OX0+PGgzPlN0YXJ0LXVwIEN1bHR1cmUsIENvcnBvcmF0ZS1HcmFkZSBTZXJ2aWNlLjwvaDM+PGJyLz48cD5XZSBjcmVhdGUgYW4gYXRtb3NwaGVyZSB0aGF0IGZvc3RlcnMgY3JlYXRpdml0eSBhbmQgcHJvZmVzc2lvbmFsaXNtLiBJbiB0aGlzIHdheSwgd2UgYWxsb3cgb3VyIHRlYW0gdG8gaG9uZSB5b3VyIHZpc2lvbiB3aXRoIG91ciBkaWdpdGFsIHN0cmF0ZWd5IGFuZCBidWlsZCByZWFsaXRpZXMgdGhhdCB3aWxsIHRha2UgeW91ciBidXNpbmVzcyB0byB0aGUgbmV4dCBsZXZlbC48L3A+PGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPjwvQ29sPlxyXG4gICAgICAgICAgPENvbCBsZz17M30+PHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPkZlYXR1cmVkPC9zcGFuPiBQb3N0PC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IEN1bHR1cmVCbG9nIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\CultureBlog.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CultureBlog);
@@ -215,16 +222,23 @@ var FoundingMembers = function FoundingMembers() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-1471395879",
+    className: "jsx-2748428135",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "Our Founding Web Developers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1471395879",
+  }, "Our Founding Web Developers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-2748428135" + " " + "btn-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEZvdW5kaW5nTWVtYmVycy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTa0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcRm91bmRpbmdNZW1iZXJzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IEZvdW5kaW5nTWVtYmVycyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuXHJcbiAgICAgICAgPENvbnRhaW5lciBjbGFzc05hbWU9XCJmb3VuZGVyc0Jsb2NrXCIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgICAgPGgzPk91ciBGb3VuZGluZyBXZWIgRGV2ZWxvcGVyczwvaDM+XHJcbiAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgRm91bmRpbmdNZW1iZXJzIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\FoundingMembers.js */"));
+  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2748428135",
+    __self: this
+  }, ".btn-grey.jsx-2748428135{display:inline-block;padding:1.2em 1.4em;margin-top:.8em;height:65px;max-width:180px;box-shadow:3px 3px rgba(125,125,125,0.2);background-color:darkslategray;font-size:1.1rem;font-weight:700;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;color:#ffffff;text-transform:uppercase;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEZvdW5kaW5nTWVtYmVycy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVa0IsQUFHZ0MscUJBQ0Qsb0JBQ0osZ0JBQ0osWUFDSSxnQkFDeUIseUNBQ1YsK0JBQ2QsaUJBQ0QsZ0JBQ0csNkZBQ0wsY0FDVyx5QkFDN0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcRm91bmRpbmdNZW1iZXJzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IEZvdW5kaW5nTWVtYmVycyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuXHJcbiAgICAgICAgPENvbnRhaW5lciBjbGFzc05hbWU9XCJmb3VuZGVyc0Jsb2NrXCIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgICAgPGgzPk91ciBGb3VuZGluZyBXZWIgRGV2ZWxvcGVyczwvaDM+XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0bi1ncmV5XCI+R2V0IGEgcXVvdGU8L2J1dHRvbj5cclxuICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgPHN0eWxlIGpzeD57YCBcclxuICAgICAgICAuYnRuLWdyZXkge1xyXG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgcGFkZGluZzogMS4yZW0gMS40ZW07XHJcbiAgICAgICAgICBtYXJnaW4tdG9wOiAuOGVtO1xyXG4gICAgICAgICAgaGVpZ2h0OiA2NXB4O1xyXG4gICAgICAgICAgbWF4LXdpZHRoOiAxODBweDtcclxuICAgICAgICAgIGJveC1zaGFkb3c6IDNweCAzcHggcmdiYSgxMjUsMTI1LDEyNSwwLjIpO1xyXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogZGFya3NsYXRlZ3JheTtcclxuICAgICAgICAgIGZvbnQtc2l6ZTogMS4xcmVtO1xyXG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAxcHg7XHJcbiAgICAgICAgICBjb2xvcjogI2ZmZmZmZjtcclxuICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8Lz5cclxuICAgIClcclxufVxyXG5leHBvcnQgZGVmYXVsdCBGb3VuZGluZ01lbWJlcnMiXX0= */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\FoundingMembers.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (FoundingMembers);
@@ -253,7 +267,7 @@ var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Lab
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4192912107" + " " + "banner",
+    className: "jsx-1438718720" + " " + "banner",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -261,17 +275,18 @@ var Header = function Header() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://labs.chiedo.com",
-    className: "jsx-4192912107",
+    className: "jsx-1438718720",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    height: "80px",
+    width: "auto",
     src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11",
     alt: "Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design",
-    width: "225",
-    className: "jsx-4192912107",
+    className: "jsx-1438718720",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -335,45 +350,74 @@ var Header = function Header() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-4192912107" + " " + "callText callMain",
+    className: "jsx-1438718720" + " " + "callText callMain",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "YOUR NEW WEB DEVELOPERS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-4192912107" + " " + "callText",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    id: "yourNewDev",
+    className: "jsx-1438718720",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "YOUR NEW", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1438718720",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), " WEB DEVELOPERS")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1438718720" + " " + "callText callBody",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "We\u2019re a team of web developers passionate about building stable, maintainable software for tech startups and enterprise customers.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    fluid: true,
-    id: "ourTeam",
+  }, "We\u2019re a team of web developers passionate about building stable, maintainable", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1438718720",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-4192912107",
+  }), " software for tech startups and enterprise customers."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-1438718720" + " " + "btn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    fluid: true,
+    id: "ourTeam",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "Hire our team to:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-4192912107",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1438718720",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "Build and maintain: Web applications Web back-ends Web front-ends Custom websites")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "4192912107",
+  }, "Hire our team to:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1438718720",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
     __self: this
-  }, ".banner.jsx-4192912107{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:black;width:100vw;height:19vh;}.callMain.jsx-4192912107{font-size:5em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwQmdCLEFBRzBCLEFBU0MsY0FDbEIsNERBVHVCLDZGQUNJLG1HQUNBLHVCQUNYLFlBQ0EsWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgeyBOYXZiYXIsIE5hdiwgQnV0dG9uLCBDb250YWluZXIgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnXHJcbmNvbnN0IEhlYWRlciA9ICgpID0+IChcclxuICAgICAgIDw+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmFubmVyXCI+XHJcbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL2xhYnMuY2hpZWRvLmNvbVwiPjxpbWcgc3JjPVwiaHR0cHM6Ly9sYWJzLmNoaWVkby5jb20vd3AtY29udGVudC90aGVtZXMvY2hpZWRvbGFicy9pbWcvYi1sb2dvLXdoaXRlLnBuZz92ZXI9MS4xMVwiIGFsdD1cIkNoaWVkbyBMYWJzIFdlYiBEZXZlbG9wbWVudCBIYXJyaXNvbmJ1cmcgVkEgJiBDaGFybG90dGVzdmlsbGUgVkEgd2ViIGRlc2lnblwiIHdpZHRoPVwiMjI1XCIgLz48L2E+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICBcclxuICAgICAgICA8TmF2YmFyICBpZD1cIm5hdlwiPlxyXG4gICAgICAgICAgICA8TmF2IGNsYXNzTmFtZT1cIm1yLWF1dG9cIj5cclxuICAgICAgICAgICAgPE5hdi5MaW5rIGhyZWY9XCIjXCI+QUJPVVQgVVM8L05hdi5MaW5rPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5QT1JURk9MSU88L05hdi5MaW5rPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5XSEFUIFdFIERPPC9OYXYuTGluaz5cclxuICAgICAgICAgICAgPE5hdi5MaW5rIGhyZWY9XCIjXCI+V0hPIFdFIFNFUlZFPC9OYXYuTGluaz5cclxuICAgICAgICAgICAgPE5hdi5MaW5rIGhyZWY9XCIjXCI+Q09OVEFDVCBVUzwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgIDwvTmF2PlxyXG4gICAgICAgIDwvTmF2YmFyPlxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgaWQ9XCJjYWxsVG9BY3Rpb25cIj5cclxuICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT1cImNhbGxUZXh0IGNhbGxNYWluXCI+WU9VUiBORVcgV0VCIERFVkVMT1BFUlM8L2gxPlxyXG4gICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJjYWxsVGV4dFwiPldl4oCZcmUgYSB0ZWFtIG9mIHdlYiBkZXZlbG9wZXJzIHBhc3Npb25hdGUgYWJvdXQgYnVpbGRpbmcgc3RhYmxlLCBtYWludGFpbmFibGUgc29mdHdhcmUgZm9yIHRlY2ggc3RhcnR1cHMgYW5kIGVudGVycHJpc2UgY3VzdG9tZXJzLjwvcD5cclxuICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIGlkPVwib3VyVGVhbVwiPlxyXG4gICAgICAgICAgICA8aDM+SGlyZSBvdXIgdGVhbSB0bzo8L2gzPlxyXG4gICAgICAgICAgICA8cD5CdWlsZCBhbmQgbWFpbnRhaW46IFdlYiBhcHBsaWNhdGlvbnMgV2ViIGJhY2stZW5kcyBXZWIgZnJvbnQtZW5kcyBDdXN0b20gd2Vic2l0ZXM8L3A+XHJcbiAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgLmJhbm5lciB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgICAgICAgICAgd2lkdGg6IDEwMHZ3O1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDE5dmg7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgICAgIC5jYWxsTWFpbntcclxuICAgICAgICAgICAgZm9udC1zaXplOiA1ZW07XHJcbiAgICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gICAgPC8+XHJcbiAgICAgICAgKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Header.js */"));
+  }, "Build and maintain: Web applications Web back-ends Web front-ends Custom websites")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1438718720",
+    __self: this
+  }, ".banner.jsx-1438718720{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:black;width:100vw;height:21.2vh;}.callMain.jsx-1438718720{font-size:6.3em;width:100vw;text-align:center;font-weight:900;text-transform:uppercase;text-shadow:1px 1px black;}.btn.jsx-1438718720{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.callBody.jsx-1438718720{font-size:28px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0QmdCLEFBRzBCLEFBU0csQUFTRSxBQUdILGVBQ0csQ0FaTixZQUNNLEtBWXRCLGFBWG9CLGdCQUNTLFNBTTdCLEdBbEJ1QixhQWNPLDBCQUM5QixzREFkMkIsbUdBQ0EsdUJBQ1gsWUFDRSxjQUNsQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1MYWJzLUhvbWVwYWdlXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcbmltcG9ydCB7IE5hdmJhciwgTmF2LCBCdXR0b24sIENvbnRhaW5lciB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuY29uc3QgSGVhZGVyID0gKCkgPT4gKFxyXG4gICAgICAgPD5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiYW5uZXJcIj5cclxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vbGFicy5jaGllZG8uY29tXCI+PGltZyBoZWlnaHQ9XCI4MHB4XCIgd2lkdGg9XCJhdXRvXCIgc3JjPVwiaHR0cHM6Ly9sYWJzLmNoaWVkby5jb20vd3AtY29udGVudC90aGVtZXMvY2hpZWRvbGFicy9pbWcvYi1sb2dvLXdoaXRlLnBuZz92ZXI9MS4xMVwiIGFsdD1cIkNoaWVkbyBMYWJzIFdlYiBEZXZlbG9wbWVudCBIYXJyaXNvbmJ1cmcgVkEgJiBDaGFybG90dGVzdmlsbGUgVkEgd2ViIGRlc2lnblwiICAvPjwvYT5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgIFxyXG4gICAgICAgIDxOYXZiYXIgIGlkPVwibmF2XCI+XHJcbiAgICAgICAgICAgIDxOYXYgY2xhc3NOYW1lPVwibXItYXV0b1wiPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5BQk9VVCBVUzwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgIDxOYXYuTGluayBocmVmPVwiI1wiPlBPUlRGT0xJTzwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgIDxOYXYuTGluayBocmVmPVwiI1wiPldIQVQgV0UgRE88L05hdi5MaW5rPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5XSE8gV0UgU0VSVkU8L05hdi5MaW5rPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5DT05UQUNUIFVTPC9OYXYuTGluaz5cclxuICAgICAgICAgICAgPC9OYXY+XHJcbiAgICAgICAgPC9OYXZiYXI+XHJcbiAgICAgICAgPENvbnRhaW5lciBmbHVpZCBpZD1cImNhbGxUb0FjdGlvblwiPlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiY2FsbFRleHQgY2FsbE1haW5cIj48c3BhbiBpZD1cInlvdXJOZXdEZXZcIj5ZT1VSIE5FVzxici8+IFdFQiBERVZFTE9QRVJTPC9zcGFuPjwvaDE+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNhbGxUZXh0IGNhbGxCb2R5XCI+V2XigJlyZSBhIHRlYW0gb2Ygd2ViIGRldmVsb3BlcnMgcGFzc2lvbmF0ZSBhYm91dCBidWlsZGluZyBzdGFibGUsIG1haW50YWluYWJsZTxici8+IHNvZnR3YXJlIGZvciB0ZWNoIHN0YXJ0dXBzIGFuZCBlbnRlcnByaXNlIGN1c3RvbWVycy48L3A+XHJcbiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwiYnRuXCI+R2V0IGEgcXVvdGU8L2J1dHRvbj5cclxuICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIGlkPVwib3VyVGVhbVwiPlxyXG4gICAgICAgICAgICA8aDM+SGlyZSBvdXIgdGVhbSB0bzo8L2gzPlxyXG4gICAgICAgICAgICA8cD5CdWlsZCBhbmQgbWFpbnRhaW46IFdlYiBhcHBsaWNhdGlvbnMgV2ViIGJhY2stZW5kcyBXZWIgZnJvbnQtZW5kcyBDdXN0b20gd2Vic2l0ZXM8L3A+XHJcbiAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgICAgXHJcbiAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgLmJhbm5lciB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgICAgICAgICAgd2lkdGg6IDEwMHZ3O1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDIxLjJ2aDtcclxuICAgICAgICB9XHJcbiAgICAgICAgXHJcbiAgICAgICAgLmNhbGxNYWlue1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDYuM2VtO1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwdnc7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDkwMDtcclxuICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgICBcclxuICAgICAgICAgICAgdGV4dC1zaGFkb3c6IDFweCAxcHggYmxhY2s7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5idG4ge1xyXG4gICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5jYWxsQm9keSB7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMjhweDtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICAgIDwvPlxyXG4gICAgICAgIClcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlciJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Header.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -479,7 +523,7 @@ var MoreLinks = function MoreLinks() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-1471395879" + " " + "redText",
+    className: "jsx-2789876640" + " " + "redText",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -493,30 +537,37 @@ var MoreLinks = function MoreLinks() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-1471395879",
+    className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, "Meet Our Founder"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: "jsx-1471395879",
+    className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-1471395879",
+    className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "If you need new web developers or want to talk about your tech startup, let's connect on LinkedIn and meet for lunch or coffee!")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1471395879",
+  }, "If you need new web developers or want to talk about your tech startup, let's connect on LinkedIn and meet for lunch or coffee!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-2789876640" + " " + "btn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXE1vcmVMaW5rcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXa0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcTW9yZUxpbmtzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IE1vcmVMaW5rcyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICA8Um93PlxyXG4gICAgICAgICAgICA8Q29sIGxnPXszfT48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+TW9yZSBMaW5rczwvc3Bhbj48L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17OX0+PGgzPk1lZXQgT3VyIEZvdW5kZXI8L2gzPjxici8+PHA+SWYgeW91IG5lZWQgbmV3IHdlYiBkZXZlbG9wZXJzIG9yIHdhbnQgdG8gdGFsayBhYm91dCB5b3VyIHRlY2ggc3RhcnR1cCwgbGV0J3MgY29ubmVjdCBvbiBMaW5rZWRJbiBhbmQgbWVldCBmb3IgbHVuY2ggb3IgY29mZmVlITwvcD48L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgTW9yZUxpbmtzIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\MoreLinks.js */"));
+  }, "Connect on LinkedIn")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2789876640",
+    __self: this
+  }, ".button.jsx-2789876640{width:200px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXE1vcmVMaW5rcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXa0IsQUFHeUIsWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcTW9yZUxpbmtzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IE1vcmVMaW5rcyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICA8Um93PlxyXG4gICAgICAgICAgICA8Q29sIGxnPXszfT48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+TW9yZSBMaW5rczwvc3Bhbj48L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17OX0+PGgzPk1lZXQgT3VyIEZvdW5kZXI8L2gzPjxici8+PHA+SWYgeW91IG5lZWQgbmV3IHdlYiBkZXZlbG9wZXJzIG9yIHdhbnQgdG8gdGFsayBhYm91dCB5b3VyIHRlY2ggc3RhcnR1cCwgbGV0J3MgY29ubmVjdCBvbiBMaW5rZWRJbiBhbmQgbWVldCBmb3IgbHVuY2ggb3IgY29mZmVlITwvcD48YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkNvbm5lY3Qgb24gTGlua2VkSW48L2J1dHRvbj48L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgLmJ1dHRvbiB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgTW9yZUxpbmtzIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\MoreLinks.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MoreLinks);
@@ -747,10 +798,17 @@ var WhatWeDo = function WhatWeDo() {
       lineNumber: 16
     },
     __self: this
-  }, "Custom Websites from the ground up as opposed to using pre-existing templates.")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Custom Websites from the ground up as opposed to using pre-existing templates."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-1471395879" + " " + "btn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdoYXRXZURvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Ca0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcV2hhdFdlRG8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG4vLyBpbXBvcnQgeyBjb2RlSW1hZ2UgfSBmcm9tICcuLi8ubmV4dC9zdGF0aWMvaW1hZ2VzL251bWJlcnMucG5nJztcclxuY29uc3QgV2hhdFdlRG8gPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDw+XHJcblxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgIDxSb3c+XHJcbiAgICAgICAgICB7LyogPENvbD48aW1nIHNyYz17Y29kZUltYWdlfS8+PC9Db2w+ICovfVxyXG4gICAgICAgICAgPENvbD48L0NvbD5cclxuICAgICAgICAgIDxDb2wgaWQ9XCJXaGF0V2VEb1wiPlxyXG4gICAgICAgICAgICA8aDM+PHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPldIQVQ8L3NwYW4+IFdFIERPPC9oMz5cclxuICAgICAgICAgICAgPHA+V2UgYnVpbGQgYW5kIG1haW50YWluOjwvcD5cclxuICAgICAgICAgICAgPHA+V2ViIEZyb250LUVuZHMgd2l0aCBIVE1MLCBDU1MsIGFuZCBhIGxpYnJhcnkgY2FsbGVkIFJlYWN0LjwvcD5cclxuICAgICAgICAgICAgPHA+V2ViIEJhY2stZW5kcyB1c2luZyBOb2RlSlMsIFJ1Ynkgb24gUmFpbHMsIFBIUCwgTXlTUUwsIEFXUywgYW5kIEhlcm9rdS48L3A+XHJcbiAgICAgICAgICAgIDxwPkN1c3RvbSBXZWJzaXRlcyBmcm9tIHRoZSBncm91bmQgdXAgYXMgb3Bwb3NlZCB0byB1c2luZyBwcmUtZXhpc3RpbmcgdGVtcGxhdGVzLjwvcD5cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IFdoYXRXZURvIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhatWeDo.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdoYXRXZURvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Ca0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcV2hhdFdlRG8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG4vLyBpbXBvcnQgeyBjb2RlSW1hZ2UgfSBmcm9tICcuLi8ubmV4dC9zdGF0aWMvaW1hZ2VzL251bWJlcnMucG5nJztcclxuY29uc3QgV2hhdFdlRG8gPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDw+XHJcblxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgIDxSb3c+XHJcbiAgICAgICAgICB7LyogPENvbD48aW1nIHNyYz17Y29kZUltYWdlfS8+PC9Db2w+ICovfVxyXG4gICAgICAgICAgPENvbD48L0NvbD5cclxuICAgICAgICAgIDxDb2wgaWQ9XCJXaGF0V2VEb1wiPlxyXG4gICAgICAgICAgICA8aDM+PHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPldIQVQ8L3NwYW4+IFdFIERPPC9oMz5cclxuICAgICAgICAgICAgPHA+V2UgYnVpbGQgYW5kIG1haW50YWluOjwvcD5cclxuICAgICAgICAgICAgPHA+V2ViIEZyb250LUVuZHMgd2l0aCBIVE1MLCBDU1MsIGFuZCBhIGxpYnJhcnkgY2FsbGVkIFJlYWN0LjwvcD5cclxuICAgICAgICAgICAgPHA+V2ViIEJhY2stZW5kcyB1c2luZyBOb2RlSlMsIFJ1Ynkgb24gUmFpbHMsIFBIUCwgTXlTUUwsIEFXUywgYW5kIEhlcm9rdS48L3A+XHJcbiAgICAgICAgICAgIDxwPkN1c3RvbSBXZWJzaXRlcyBmcm9tIHRoZSBncm91bmQgdXAgYXMgb3Bwb3NlZCB0byB1c2luZyBwcmUtZXhpc3RpbmcgdGVtcGxhdGVzLjwvcD5cclxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPlxyXG4gICAgICAgICAgPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IFdoYXRXZURvIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhatWeDo.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (WhatWeDo);
@@ -847,16 +905,17 @@ var WhoWeServe = function WhoWeServe() {
       lineNumber: 10
     },
     __self: this
-  }, "Tech startups"), " partner with us to build and maintain the web front-ends and back-ends at the core of their business.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, "Tech startups"), " partner with us to build and maintain the web front-ends and back-ends at the core of their business."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-1471395879" + " " + "btn",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdob1dlU2VydmUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY2tCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdob1dlU2VydmUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG5cclxuY29uc3QgV2hvV2VTZXJ2ZSA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuXHJcbiAgICAgICAgPENvbnRhaW5lciBpZD1cIldob1dlU2VydmVcIiBmbHVpZCA+XHJcbiAgICAgICAgPFJvdz5cclxuICAgICAgICAgIDxDb2w+PGgzPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5XSE88L3NwYW4+IFdFIFNFUlZFPC9oMz48YnIvPjxwPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5FbnRlcnByaXNlIGN1c3RvbWVyczwvc3Bhbj4gaGlyZSB1cyB0byBidWlsZCBhbmQgbWFpbnRhaW4gdGhlIHdlYiBhcHBzIGNyaXRpY2FsIHRvIHRoZWlyIG9wZXJhdGlvbnMuIFxyXG4gICAgICAgICAgPGJyLz48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+VGVjaCBzdGFydHVwczwvc3Bhbj4gcGFydG5lciB3aXRoIHVzIHRvIGJ1aWxkIGFuZCBtYWludGFpbiB0aGUgd2ViIGZyb250LWVuZHMgYW5kIGJhY2stZW5kcyBhdCB0aGUgY29yZSBvZiB0aGVpciBidXNpbmVzcy48L3A+PC9Db2w+XHJcbiAgICAgICAgICA8Q29sPlxyXG4gICAgICAgICAgPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IFdob1dlU2VydmUiXX0= */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhoWeServe.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdob1dlU2VydmUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY2tCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdob1dlU2VydmUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG5cclxuY29uc3QgV2hvV2VTZXJ2ZSA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuXHJcbiAgICAgICAgPENvbnRhaW5lciBpZD1cIldob1dlU2VydmVcIiBmbHVpZCA+XHJcbiAgICAgICAgPFJvdz5cclxuICAgICAgICAgIDxDb2w+PGgzPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5XSE88L3NwYW4+IFdFIFNFUlZFPC9oMz48YnIvPjxwPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5FbnRlcnByaXNlIGN1c3RvbWVyczwvc3Bhbj4gaGlyZSB1cyB0byBidWlsZCBhbmQgbWFpbnRhaW4gdGhlIHdlYiBhcHBzIGNyaXRpY2FsIHRvIHRoZWlyIG9wZXJhdGlvbnMuIFxyXG4gICAgICAgICAgPGJyLz48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+VGVjaCBzdGFydHVwczwvc3Bhbj4gcGFydG5lciB3aXRoIHVzIHRvIGJ1aWxkIGFuZCBtYWludGFpbiB0aGUgd2ViIGZyb250LWVuZHMgYW5kIGJhY2stZW5kcyBhdCB0aGUgY29yZSBvZiB0aGVpciBidXNpbmVzcy48L3A+XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkdldCBhIHF1b3RlPC9idXR0b24+XHJcbiAgICAgICAgICA8L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgV2hvV2VTZXJ2ZSJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhoWeServe.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (WhoWeServe);

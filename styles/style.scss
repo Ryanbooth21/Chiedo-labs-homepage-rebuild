@@ -16,15 +16,12 @@ body, html {
   flex-direction: column;
   justify-content: center;
   align-content: center; 
-  
 } 
 .callText {
   @include centeredContent;
   align-self: center;
 }
-#callToAction {
-  @include centeredContent;
-}
+
 .foundersBlock {
   @include centeredContent;
 }
@@ -47,11 +44,26 @@ body, html {
     border-bottom: 3px solid $red;
     background-color: #333333;
 }
-
+.btn {
+    display: inline-block;
+    padding: 1.2em 1.4em;
+    margin-top: .8em;
+    height: 67px;
+    min-width: 180px;
+    max-width: 300px;
+    box-shadow: 3px 3px rgba(125,125,125,0.2);
+    background-color: #B92C2C;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
 #callToAction {
     background-color: $lightGrey;
-    height: 60vh;
+    height: 80vh;
     color: white;
+    @include centeredContent;
 }
 
 #ourTeam {
