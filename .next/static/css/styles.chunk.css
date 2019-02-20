@@ -1,0 +1,66 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+.callText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center; }
+
+#callToAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.foundersBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.redText {
+  color: #b6352d;
+  font-weight: bold; }
+
+.foundersBlock {
+  background-color: #b6352d;
+  height: 50vh; }
+
+.container, #__next {
+  width: 100vw; }
+
+#nav {
+  text-decoration: underline;
+  border-bottom: 3px solid #b6352d;
+  background-color: #333333; }
+
+#callToAction {
+  background-color: #606060;
+  height: 60vh;
+  color: white; }
+
+#ourTeam {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  height: 30vh; }
+
+#WhatWeDo {
+  padding: 2em 1em 2em 0;
+  font-size: 18px;
+  line-height: 200%; }
+
+#WhoWeServe {
+  padding: 2em 0 2em 1em;
+  font-size: 18px;
+  line-height: 200%; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

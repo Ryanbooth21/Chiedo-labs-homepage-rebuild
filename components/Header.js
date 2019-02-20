@@ -7,7 +7,7 @@ const Header = () => (
             </div>
 
         
-        <Navbar bg="dark" variant="dark" className="nav">
+        <Navbar  id="nav">
             <Nav className="mr-auto">
             <Nav.Link href="#">ABOUT US</Nav.Link>
             <Nav.Link href="#">PORTFOLIO</Nav.Link>
@@ -16,11 +16,14 @@ const Header = () => (
             <Nav.Link href="#">CONTACT US</Nav.Link>
             </Nav>
         </Navbar>
-        <Container fluid className="pageText">
+        <Container fluid id="callToAction">
             <h1 className="callText callMain">YOUR NEW WEB DEVELOPERS</h1>
             <p className="callText">We’re a team of web developers passionate about building stable, maintainable software for tech startups and enterprise customers.</p>
         </Container>
-        
+        <Container fluid id="ourTeam">
+            <h3>Hire our team to:</h3>
+            <p>Build and maintain: Web applications Web back-ends Web front-ends Custom websites</p>
+        </Container>
     <style jsx>{`
         .banner {
             display: flex;
@@ -30,16 +33,7 @@ const Header = () => (
             width: 100vw;
             height: 19vh;
         }
-        .callToAction {
-            display: flex;
-            flex-direction: column;
-            color: white;
-        }
         
-        .callText{
-            padding-top: 1em;
-            align-self: center;
-        }
         .callMain{
             font-size: 5em;
         }

@@ -1,9 +1,14 @@
 $red: #b6352d;
 $grey: #333333;
+$lightGrey: #606060;
 
 body, html {
     margin: 0;
     padding: 0;
+}
+@mixin bodyStyle {
+  font-size: 18px;
+  line-height: 200%;
 }
 
 @mixin centeredContent {
@@ -13,7 +18,11 @@ body, html {
   align-content: center; 
   
 } 
-.pageText {
+.callText {
+  @include centeredContent;
+  align-self: center;
+}
+#callToAction {
   @include centeredContent;
 }
 .foundersBlock {
@@ -32,18 +41,33 @@ body, html {
 .container, #__next {
     width: 100vw;
 }
-.nav{
+
+#nav  {
     text-decoration: underline;
     border-bottom: 3px solid $red;
     background-color: #333333;
 }
-.callToAction {
-    background-color: #333333;
-    height: 45vh;
+
+#callToAction {
+    background-color: $lightGrey;
+    height: 60vh;
+    color: white;
 }
 
-.pageText{
-  background-color: #333333;
+#ourTeam {
+  background-color: $grey;
   color: white;
-  height: 40vh;
+  @include centeredContent;
+  align-self: center;
+  height: 30vh;
+}
+
+#WhatWeDo {
+  padding: 2em 1em 2em 0;
+  @include bodyStyle;
+}
+
+#WhoWeServe {
+  padding: 2em 0 2em 1em;
+  @include bodyStyle;
 }
