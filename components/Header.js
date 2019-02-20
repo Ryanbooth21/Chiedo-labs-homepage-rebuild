@@ -3,17 +3,17 @@ import { Navbar, Nav, Button, Container } from 'react-bootstrap'
 const Header = () => (
        <>
             <div className="banner">
-            <a href="https://labs.chiedo.com"><img height="80px" width="auto" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design"  /></a>
+            <a href="https://labs.chiedo.com"><img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design"  /></a>
             </div>
 
         
         <Navbar  id="nav">
             <Nav className="mr-auto">
-            <Nav.Link href="#">ABOUT US</Nav.Link>
-            <Nav.Link href="#">PORTFOLIO</Nav.Link>
-            <Nav.Link href="#">WHAT WE DO</Nav.Link>
-            <Nav.Link href="#">WHO WE SERVE</Nav.Link>
-            <Nav.Link href="#">CONTACT US</Nav.Link>
+            <Nav.Link className="nav-link" href="#">ABOUT US</Nav.Link>
+            <Nav.Link className="nav-link" href="#">PORTFOLIO</Nav.Link>
+            <Nav.Link className="nav-link" href="#">WHAT WE DO</Nav.Link>
+            <Nav.Link className="nav-link" href="#">WHO WE SERVE</Nav.Link>
+            <Nav.Link className="nav-link" href="#">CONTACT US</Nav.Link>
             </Nav>
         </Navbar>
         <Container fluid id="callToAction">
@@ -23,7 +23,7 @@ const Header = () => (
         </Container>
         <Container className="greybox" fluid id="ourTeam">
             <h3 className="team White-title">Hire our team to:</h3>
-            <p className="team buildAndMaintain">Build and maintain: <span className="build-list">Web applications</span> <span className="build-list">Web back-ends</span> <span className="build-list">Web front-ends</span> <span className="build-list">Custom websites</span></p>
+            <p className="team buildAndMaintain">Build and maintain: <span>Web applications</span> <span>Web back-ends</span> <span>Web front-ends</span> <span>Custom websites</span></p>
         </Container>
         
     <style jsx>{`
@@ -33,7 +33,7 @@ const Header = () => (
             justify-content: center;
             background-color: black;
             width: 100vw;
-            height: 21.2vh;
+            height: 18vh;
         }
         
         .callMain{

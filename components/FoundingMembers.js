@@ -8,28 +8,21 @@ const FoundingMembers = () => {
         <Container id="foundersBlock" fluid style={{ lineHeight: '32px' }}>
          
           
-            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-chiedo-new.jpg"/></div>
-            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-ricardo-fearing.jpg"/></div>
-            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-eric-duvon.jpg"/></div>
-            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-don-townsend.jpg"/></div>
+            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-chiedo-new.jpg"/><div className="nameTag"><span>Chiedo</span><br/>Founder, Solutions Architect</div></div>
+            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-ricardo-fearing.jpg"/><div className="nameTag"><span>Ricardo</span><br/>ReactJS / Front-End Master</div></div>
+            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-eric-duvon.jpg"/><div className="nameTag"><span>Eric</span><br/>Ruby on Rails / Back-end Pro</div></div>
+            <div className="founder"><img height="300px" width="300px" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-don-townsend.jpg"/><div className="nameTag"><span>Don</span><br/>NodeJS / Full Stack Expert</div></div>
           
          
         </Container>
-        <button className="btn-grey">Get a quote</button>
+        <button className="btn btn-grey">Get a quote</button>
       <style jsx>{` 
         .btn-grey {
           display: inline-block;
-          padding: 1.2em 1.4em;
-          margin-top: .8em;
-          height: 65px;
-          max-width: 180px;
-          box-shadow: 3px 3px rgba(125,125,125,0.2);
           background-color: darkslategray;
-          font-size: 1.1rem;
-          font-weight: 700;
-          letter-spacing: 1px;
           color: #ffffff;
-          text-transform: uppercase;
+          position: relative;
+          bottom: 20px;
       }
       
       `}</style>

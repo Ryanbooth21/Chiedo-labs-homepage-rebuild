@@ -6,11 +6,11 @@ const WhoWeServe = () => {
 
         <Container className="lighterGreyBox" id="WhoWeServe" fluid >
         <Row>
-          <Col><h3><span className="redText">WHO</span> WE SERVE</h3><br/><p><span className="redText">Enterprise customers</span> hire us to build and maintain the web apps critical to their operations. 
+          <Col sm={12} md={6}><h3><span className="redText">WHO</span> WE SERVE</h3><br/><p><span className="redText">Enterprise customers</span> hire us to build and maintain the web apps critical to their operations. 
           <br/><span className="redText">Tech startups</span> partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p>
           <button className="btn">Get a quote</button>
           </Col>
-          <Col>
+          <Col sm={0} md={6}>
           </Col>
         </Row>
       </Container>
