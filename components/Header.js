@@ -5,20 +5,19 @@ const Header = () => (
             <div className="banner">
             <a href="https://labs.chiedo.com"><img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design"  /></a>
             </div>
-
-        
         <Navbar  id="nav">
             <Nav className="mr-auto">
-            <Nav.Link className="nav-link" href="#">ABOUT US</Nav.Link>
-            <Nav.Link className="nav-link" href="#">PORTFOLIO</Nav.Link>
-            <Nav.Link className="nav-link" href="#">WHAT WE DO</Nav.Link>
-            <Nav.Link className="nav-link" href="#">WHO WE SERVE</Nav.Link>
-            <Nav.Link className="nav-link" href="#">CONTACT US</Nav.Link>
+                <Nav.Link className="nav-link" href="#">ABOUT US</Nav.Link>
+                <Nav.Link className="nav-link" href="#">PORTFOLIO</Nav.Link>
+                <Nav.Link className="nav-link" href="#">WHAT WE DO</Nav.Link>
+                <Nav.Link className="nav-link" href="#">WHO WE SERVE</Nav.Link>
+                <Nav.Link className="nav-link" href="#">CONTACT US</Nav.Link>
             </Nav>
         </Navbar>
         <Container fluid id="callToAction">
             <h1 className="callText callMain"><span id="yourNewDev">YOUR NEW<br/> WEB DEVELOPERS</span></h1>
-            <p className="callText callBody">We’re a team of web developers passionate about building stable, maintainable<br/> software for tech startups and enterprise customers.</p>
+            <p className="callText callBody">We’re a team of web developers passionate about building stable, maintainable<br/> 
+            software for tech startups and enterprise customers.</p>
             <button className="btn">Get a quote</button>
         </Container>
         <Container className="greybox" fluid id="ourTeam">

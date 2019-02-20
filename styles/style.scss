@@ -172,10 +172,14 @@ p {
   padding: 2em;
   @include bodyStyle;
 }
+.startUp{
+  background-color: $grey;
+  color: white;
+  @include bodyStyle;
+}
 
 #linksAndFounder {
-  
-  
+
   .moreLinks {
     display: flex;
     @include centeredContent;

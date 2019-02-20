@@ -3,10 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 const WhatWeDo = () => {
     return (
         <>
-
         <Container fluid style={{ lineHeight: '32px' }}>
         <Row>
-          {/* <Col><img src={codeImage}/></Col> */}
           <Col sm={0} md={6}></Col>
           <Col sm={12} md={6} id="WhatWeDo">
             <h3><span className="redText">WHAT</span> WE DO</h3><br/>
