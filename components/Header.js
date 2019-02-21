@@ -1,7 +1,8 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap'
-const Header = () => (
+import { Navbar, Nav, Container } from 'react-bootstrap'
+const Header = (props) => (
        <>
+      {console.log(props.media)}
             <div className="banner">
             <a href="https://labs.chiedo.com"><img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design"  /></a>
             </div>

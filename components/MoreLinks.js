@@ -14,7 +14,9 @@ const MoreLinks = () => {
                 <li>Twitter</li>
             </ul>
             </Col>
-            <Col lg={9} className="ourFounder">
+            <Col className="greybox" lg={3}>
+            </Col>
+            <Col lg={6} className="ourFounder">
             <h3>Meet Our Founder</h3><br/>
                 <p>If you need new web developers or want to talk about 
                     your tech startup, let's connect on LinkedIn and meet 

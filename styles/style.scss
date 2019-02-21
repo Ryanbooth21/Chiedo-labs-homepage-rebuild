@@ -24,6 +24,11 @@ body, html {
 @mixin boxPadding {
   padding: 2em, 2em, 2em, 2em;
 }
+@mixin pageBlock {
+  width: 100vw;
+  min-height: 50vh;
+}
+
 p {
   @include bodyStyle;
 }
@@ -40,7 +45,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 50vh;
+  min-height: 40vh;
 }
 .founder {
   display: flex;
@@ -64,13 +69,12 @@ p {
   }
 }
 .founders-title {
-  margin-bottom: 0;
-  letter-spacing: 0.2em;
+  letter-spacing: .5rem;
   font-size: 1.8em;
   text-transform: uppercase;
   font-weight: 500;
   color: #fff;
-  -webkit-font-smoothing: antialiased;
+  @include bodyStyle;
   padding-top: 1em;
   max-width: 85vw;
 }
@@ -89,12 +93,12 @@ p {
 .greybox{
   background-color: $grey;
   color: #ffffff;
+  @include bodyStyle;
 }
 .lighterGreyBox {
   background-color: $lighterGrey;
+  @include bodyStyle;
 }
-
-
 #nav  {
     text-decoration: underline;
     border-bottom: 3px solid $red;
@@ -112,7 +116,6 @@ p {
     }
     .nav-link:hover {
       background-color: $red;
-      
     }
 }
 .btn {
@@ -147,7 +150,7 @@ p {
   color: white;
   @include centeredContent;
   min-height: 48vh;
-  .team{
+  .team {
     display: flex;
     flex-direction: column;
   }
@@ -164,24 +167,47 @@ p {
 #WhatWeDo {
   padding: 3em 1em 2em 2em;
   background-color: $lighterGrey;
-  min-height: 60vh;
+  @include pageBlock;
   @include bodyStyle;
 }
 
 #WhoWeServe {
   padding: 2em;
   @include bodyStyle;
+  @include pageBlock;
+}
+#CultureBlog{
+  
 }
 .startUp{
   background-color: $grey;
   color: white;
   @include bodyStyle;
+  min-height: 60vh;
+  
 }
-
+  #PostColumn {
+    @include bodyStyle;
+    @include centeredContent;
+    min-height: 60vh;
+    background-color: $lighterGrey;
+    h3 {
+      font-size: 2.3rem;
+      padding: .5em 0 .5em 0;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      line-height: 3rem;
+      height: 250px;
+      width: 300px;
+    }
+  }
 #linksAndFounder {
-
+  @include pageBlock;
   .moreLinks {
-    display: flex;
+    @include pageBlock;
     @include centeredContent;
     text-align: center;
     background-color: $lighterGrey;
