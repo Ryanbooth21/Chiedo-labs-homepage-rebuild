@@ -177,7 +177,7 @@ p {
   @include pageBlock;
 }
 #CultureBlog{
-  @include pageBlock;
+  min-height: 50vh;
   #featured-image-ricardo { 
     padding-left: 3em;
   }
@@ -194,26 +194,28 @@ p {
   .greybox {
     @include centeredContent
   }
-}
-
   #PostColumn {
     @include bodyStyle;
     @include centeredContent;
-    min-height: 60vh;
+    min-height: 55vh;
     background-color: $lighterGrey;
     h3 {
       font-size: 2.3rem;
       padding: .5em 0 .5em 0;
     }
     a {
+      @include bodyStyle;
       display: flex;
       align-items: center;
       font-size: 1rem;
       line-height: 3rem;
       height: 250px;
-      width: 300px;
+      width: 250px;
     }
   }
+}
+
+  
 #linksAndFounder {
   @include pageBlock;
   .moreLinks {
