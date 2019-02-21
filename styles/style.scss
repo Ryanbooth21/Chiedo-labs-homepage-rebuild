@@ -177,15 +177,25 @@ p {
   @include pageBlock;
 }
 #CultureBlog{
-  
+  @include pageBlock;
+  #featured-image-ricardo { 
+    padding-left: 3em;
+  }
+  .startUp{
+    background-color: $grey;
+    color: white;
+    @include bodyStyle;
+    @include centeredContent;
+    .btn {
+      display: flex;
+      align-self: flex-start;
+    }
+  }
+  .greybox {
+    @include centeredContent
+  }
 }
-.startUp{
-  background-color: $grey;
-  color: white;
-  @include bodyStyle;
-  min-height: 60vh;
-  
-}
+
   #PostColumn {
     @include bodyStyle;
     @include centeredContent;

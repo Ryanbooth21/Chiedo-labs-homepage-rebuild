@@ -22,9 +22,9 @@ class CultureBlog extends React.Component {
         <>
         <Container id="CultureBlog" fluid style={{ lineHeight: '15vh' }}>
         <Row>
-          <Col className="greybox" lg={3}><img src='https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/img-ricardo-monicle.jpg'/></Col>
-            <Col className="startUp" lg={6} style={{ padding: '3em' }}>
-              <h3 style={{ fontSize: '2rem' }}>Start-up Culture, Corporate-Grade Service.</h3><br/>
+          <Col id="featured-image-ricardo" className="greybox" lg={4}><img src='https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/img-ricardo-monicle.jpg'/></Col>
+            <Col className="startUp" lg={5} style={{ padding: '3em' }}>
+              <h3 style={{ fontSize: '2rem' }}>Start-up Culture, Corporate-Grade Service.</h3>
               <p style={{ fontSize: '1rem' }}>We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level.</p>
               <button className="btn">Get a quote</button></Col>
             <Col lg={3} id="PostColumn" style={{ fontSize: '2.5rem', textAlign: 'center' }}>
