@@ -5,18 +5,18 @@ const MoreLinks = () => {
         <>
         <Container id="linksAndFounder" fluid style={{ lineHeight: '32px' }}>
         <Row>
-            <Col  className="moreLinks" lg={3}>
+            <Col  className="moreLinks" xl={3} lg={12}>
             <ul>
-            <span className="redText" style={{ fontSize: '2.5rem', }}>More Links</span>
+            <span className="redText" style={{ fontSize: '2.5rem', }}>MORE LINKS</span>
                 <li>Blog</li>
                 <li>Join the Team</li>
                 <li>Facebook</li>
                 <li>Twitter</li>
             </ul>
             </Col>
-            <Col className="greybox" lg={3}>
+            <Col className="greybox" id='featured-image-chiedo' lg={7} xl={4}><img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/chiedo-sitting-small.png"/>
             </Col>
-            <Col lg={6} className="ourFounder">
+            <Col xl={5} lg={5}className="ourFounder">
             <h3>Meet Our Founder</h3><br/>
                 <p>If you need new web developers or want to talk about 
                     your tech startup, let's connect on LinkedIn and meet 

@@ -100,15 +100,14 @@ p {
   @include bodyStyle;
 }
 #nav  {
-    text-decoration: underline;
     border-bottom: 3px solid $red;
     background-color: #333333;
     padding: 0;
     .nav-link{
       display: inline-block;
       display: flex;
+      text-align: center;
       color: rgb(245, 227, 226);
-      text-decoration: none;
       height: 100%;
       margin: 0;
       padding: .3rem 1rem .3rem 2rem;
@@ -179,7 +178,8 @@ p {
 #CultureBlog{
   min-height: 50vh;
   #featured-image-ricardo { 
-    padding-left: 3em;
+    //this is a magic number. Working on fixing it.
+    padding-left: 2em;
   }
   .startUp{
     background-color: $grey;
@@ -228,11 +228,20 @@ p {
       padding-top: 10px;
       list-style-type: none;
     }
+    
   }
+  #featured-image-chiedo {
+      @include centeredContent;
+      overflow: hidden;
+      padding: 2em 2em 2em 2em;
+    }
   .ourFounder {
     background-color: $grey;
     color: white;
-    padding: 2em 2em 2em 2em;
+    padding: 2em 3em 2em 2em;
+    @include centeredContent;
+    @include bodyStyle;
+    align-items: flex-start
   }
 }
 @media (min-width: 1266px) { 
