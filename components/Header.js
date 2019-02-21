@@ -1,18 +1,21 @@
 import React from 'react'
-import { Navbar, Nav, Button, Container } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap'
 const Header = () => (
        <>
             <div className="banner">
             <a href="https://labs.chiedo.com"><img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design"  /></a>
             </div>
-        <Navbar  id="nav">
-            <Nav className="mr-auto">
-                <Nav.Link className="nav-link" href="#">ABOUT US</Nav.Link>
-                <Nav.Link className="nav-link" href="#">PORTFOLIO</Nav.Link>
-                <Nav.Link className="nav-link" href="#">WHAT WE DO</Nav.Link>
-                <Nav.Link className="nav-link" href="#">WHO WE SERVE</Nav.Link>
-                <Nav.Link className="nav-link" href="#">CONTACT US</Nav.Link>
-            </Nav>
+        <Navbar collapseOnSelect expand="md" id="nav">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                <Nav.Link className="nav-link" href="#features">ABOUT US</Nav.Link>
+                <Nav.Link className="nav-link" href="#features">PORTFOLIO</Nav.Link>
+                <Nav.Link className="nav-link" href="#features">WHAT WE DO</Nav.Link>
+                <Nav.Link className="nav-link" href="#features">WHO WE SERVE</Nav.Link>
+                <Nav.Link className="nav-link" href="#features">CONTACT US</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
         </Navbar>
         <Container fluid id="callToAction">
             <h1 className="callText callMain"><span id="yourNewDev">YOUR NEW<br/> WEB DEVELOPERS</span></h1>

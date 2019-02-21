@@ -2,49 +2,115 @@ body, html {
   margin: 0;
   padding: 0; }
 
-.callText {
+p {
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+#foundersBlock {
+  padding-top: 1em;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+#founders-container {
+  background-color: #b6352d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh; }
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 1; }
+  .founder .nameTag {
+    display: inline-block;
+    position: relative;
+    bottom: 58px;
+    background-color: rgba(51, 51, 51, 0.8);
+    width: 320px;
+    color: white;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: .9rem; }
+    .founder .nameTag span {
+      font-size: 1.2rem; }
+
+.founders-title {
+  margin-bottom: 0;
+  letter-spacing: 0.2em;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 1em;
+  max-width: 85vw; }
+
+.redText {
+  font-weight: 900;
+  color: #B92C2C; }
+
+.White-title {
+  font-size: 2.5em;
+  font-weight: 100;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  align-self: center; }
+  align-items: center;
+  text-align: center; }
 
-.foundersBlock {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; }
+.greybox {
+  background-color: #333333;
+  color: #ffffff; }
 
-.redText {
-  color: #b6352d;
-  font-weight: bold; }
-
-.foundersBlock {
-  background-color: #b6352d;
-  height: 50vh; }
-
-.container, #__next {
-  width: 100vw; }
+.lighterGreyBox {
+  background-color: #F2F2F2; }
 
 #nav {
   text-decoration: underline;
   border-bottom: 3px solid #b6352d;
-  background-color: #333333; }
+  background-color: #333333;
+  padding: 0; }
+  #nav .nav-link {
+    display: inline-block;
+    display: flex;
+    color: #f5e3e2;
+    text-decoration: none;
+    height: 100%;
+    margin: 0;
+    padding: .3rem 1rem .3rem 2rem;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased; }
+  #nav .nav-link:hover {
+    background-color: #b6352d; }
 
 .btn {
   display: inline-block;
   padding: 1.2em 1.4em;
   margin-top: .8em;
-  height: 67px;
-  min-width: 180px;
-  max-width: 300px;
   box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
   background-color: #B92C2C;
-  font-size: 1.1rem;
+  font-size: .9rem;
   font-weight: 700;
   letter-spacing: 1px;
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
 
 #callToAction {
   background-color: #606060;
@@ -53,7 +119,16 @@ body, html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  align-items: center;
+  display: none; }
+  #callToAction .callText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center; }
 
 #ourTeam {
   background-color: #333333;
@@ -62,18 +137,72 @@ body, html {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  align-self: center;
-  height: 30vh; }
+  align-items: center;
+  min-height: 48vh; }
+  #ourTeam .team {
+    display: flex;
+    flex-direction: column; }
+  #ourTeam .buildAndMaintain {
+    font-size: 1.2em;
+    color: #b6352d;
+    font-weight: bold; }
+  #ourTeam span {
+    padding: 0em .7em 0 .7em; }
 
 #WhatWeDo {
-  padding: 2em 1em 2em 0;
+  padding: 3em 1em 2em 2em;
+  background-color: #F2F2F2;
+  min-height: 60vh;
   font-size: 18px;
-  line-height: 200%; }
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 #WhoWeServe {
-  padding: 2em 0 2em 1em;
+  padding: 2em;
   font-size: 18px;
-  line-height: 200%; }
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.startUp {
+  background-color: #333333;
+  color: white;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+#linksAndFounder .moreLinks {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #F2F2F2;
+  padding: 2em 2em 2em 2em; }
+  #linksAndFounder .moreLinks ul {
+    padding-top: 10px;
+    list-style-type: none; }
+
+#linksAndFounder .ourFounder {
+  background-color: #333333;
+  color: white;
+  padding: 2em 2em 2em 2em; }
+
+@media (min-width: 1266px) {
+  #foundersBlock {
+    flex-direction: row; }
+  .founder {
+    border: solid .5em transparent; }
+  #ourTeam {
+    flex-direction: column; }
+    #ourTeam .team {
+      flex-direction: row; }
+  #callToAction {
+    display: flex; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

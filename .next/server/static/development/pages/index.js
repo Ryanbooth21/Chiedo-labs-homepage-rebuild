@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\CultureBlog.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\CultureBlog.js";
 
 
 
@@ -117,7 +117,7 @@ var CultureBlog = function CultureBlog() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     fluid: true,
     style: {
-      lineHeight: '32px'
+      lineHeight: '15vh'
     },
     __source: {
       fileName: _jsxFileName,
@@ -131,58 +131,80 @@ var CultureBlog = function CultureBlog() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-    lg: 9,
+    className: "greybox",
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    className: "startUp",
+    lg: 6,
+    style: {
+      padding: '3em'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    style: {
+      fontSize: '2rem'
+    },
     className: "jsx-1471395879",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }, "Start-up Culture, Corporate-Grade Service."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     className: "jsx-1471395879",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    style: {
+      fontSize: '1rem'
+    },
     className: "jsx-1471395879",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 11
     },
     __self: this
   }, "We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "jsx-1471395879" + " " + "btn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 12
     },
     __self: this
   }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     lg: 3,
+    style: {
+      fontSize: '2.5rem',
+      textAlign: 'center'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-1471395879" + " " + "redText",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     },
     __self: this
   }, "Featured"), " Post"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEN1bHR1cmVCbG9nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdrQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1MYWJzLUhvbWVwYWdlXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxDdWx0dXJlQmxvZy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbnRhaW5lciwgUm93LCBDb2wgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnXHJcblxyXG5jb25zdCBDdWx0dXJlQmxvZyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICA8Um93PlxyXG4gICAgICAgICAgPENvbCBsZz17OX0+PGgzPlN0YXJ0LXVwIEN1bHR1cmUsIENvcnBvcmF0ZS1HcmFkZSBTZXJ2aWNlLjwvaDM+PGJyLz48cD5XZSBjcmVhdGUgYW4gYXRtb3NwaGVyZSB0aGF0IGZvc3RlcnMgY3JlYXRpdml0eSBhbmQgcHJvZmVzc2lvbmFsaXNtLiBJbiB0aGlzIHdheSwgd2UgYWxsb3cgb3VyIHRlYW0gdG8gaG9uZSB5b3VyIHZpc2lvbiB3aXRoIG91ciBkaWdpdGFsIHN0cmF0ZWd5IGFuZCBidWlsZCByZWFsaXRpZXMgdGhhdCB3aWxsIHRha2UgeW91ciBidXNpbmVzcyB0byB0aGUgbmV4dCBsZXZlbC48L3A+PGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPjwvQ29sPlxyXG4gICAgICAgICAgPENvbCBsZz17M30+PHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPkZlYXR1cmVkPC9zcGFuPiBQb3N0PC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IEN1bHR1cmVCbG9nIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\CultureBlog.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcQ3VsdHVyZUJsb2cuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUJrQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEN1bHR1cmVCbG9nLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IEN1bHR1cmVCbG9nID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzE1dmgnIH19PlxyXG4gICAgICAgIDxSb3c+XHJcbiAgICAgICAgICA8Q29sIGNsYXNzTmFtZT1cImdyZXlib3hcIiBsZz17M30+PC9Db2w+XHJcbiAgICAgICAgICAgIDxDb2wgY2xhc3NOYW1lPVwic3RhcnRVcFwiIGxnPXs2fSBzdHlsZT17eyBwYWRkaW5nOiAnM2VtJyB9fT5cclxuICAgICAgICAgICAgICA8aDMgc3R5bGU9e3sgZm9udFNpemU6ICcycmVtJyB9fT5TdGFydC11cCBDdWx0dXJlLCBDb3Jwb3JhdGUtR3JhZGUgU2VydmljZS48L2gzPjxici8+XHJcbiAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6ICcxcmVtJyB9fT5XZSBjcmVhdGUgYW4gYXRtb3NwaGVyZSB0aGF0IGZvc3RlcnMgY3JlYXRpdml0eSBhbmQgcHJvZmVzc2lvbmFsaXNtLiBJbiB0aGlzIHdheSwgd2UgYWxsb3cgb3VyIHRlYW0gdG8gaG9uZSB5b3VyIHZpc2lvbiB3aXRoIG91ciBkaWdpdGFsIHN0cmF0ZWd5IGFuZCBidWlsZCByZWFsaXRpZXMgdGhhdCB3aWxsIHRha2UgeW91ciBidXNpbmVzcyB0byB0aGUgbmV4dCBsZXZlbC48L3A+XHJcbiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXszfSBzdHlsZT17eyBmb250U2l6ZTogJzIuNXJlbScsIHRleHRBbGlnbjogJ2NlbnRlcicgfX0+XHJcbiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPkZlYXR1cmVkPC9zcGFuPiBQb3N0XHJcbiAgICAgICAgICAgIDwvQ29sPlxyXG4gICAgICAgIDwvUm93PlxyXG4gICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgPHN0eWxlIGpzeD57YCBcclxuICAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8Lz5cclxuICAgIClcclxufVxyXG5leHBvcnQgZGVmYXVsdCBDdWx0dXJlQmxvZyJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\CultureBlog.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CultureBlog);
@@ -204,41 +226,209 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\FoundingMembers.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\FoundingMembers.js";
 
 
 
 
 var FoundingMembers = function FoundingMembers() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    className: "foundersBlock",
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "founders-container",
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "White-title founders-title",
+    fluid: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Our Founding Web Developers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    id: "foundersBlock",
     fluid: true,
     style: {
       lineHeight: '32px'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-2748428135",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "founder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 11
     },
     __self: this
-  }, "Our Founding Web Developers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "jsx-2748428135" + " " + "btn-grey",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    height: "300px",
+    width: "300px",
+    src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-chiedo-new.jpg",
+    className: "jsx-2924191959",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
-  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2748428135",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "nameTag",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
     __self: this
-  }, ".btn-grey.jsx-2748428135{display:inline-block;padding:1.2em 1.4em;margin-top:.8em;height:65px;max-width:180px;box-shadow:3px 3px rgba(125,125,125,0.2);background-color:darkslategray;font-size:1.1rem;font-weight:700;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;color:#ffffff;text-transform:uppercase;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEZvdW5kaW5nTWVtYmVycy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVa0IsQUFHZ0MscUJBQ0Qsb0JBQ0osZ0JBQ0osWUFDSSxnQkFDeUIseUNBQ1YsK0JBQ2QsaUJBQ0QsZ0JBQ0csNkZBQ0wsY0FDVyx5QkFDN0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcRm91bmRpbmdNZW1iZXJzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IEZvdW5kaW5nTWVtYmVycyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuXHJcbiAgICAgICAgPENvbnRhaW5lciBjbGFzc05hbWU9XCJmb3VuZGVyc0Jsb2NrXCIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgICAgPGgzPk91ciBGb3VuZGluZyBXZWIgRGV2ZWxvcGVyczwvaDM+XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0bi1ncmV5XCI+R2V0IGEgcXVvdGU8L2J1dHRvbj5cclxuICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgPHN0eWxlIGpzeD57YCBcclxuICAgICAgICAuYnRuLWdyZXkge1xyXG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgcGFkZGluZzogMS4yZW0gMS40ZW07XHJcbiAgICAgICAgICBtYXJnaW4tdG9wOiAuOGVtO1xyXG4gICAgICAgICAgaGVpZ2h0OiA2NXB4O1xyXG4gICAgICAgICAgbWF4LXdpZHRoOiAxODBweDtcclxuICAgICAgICAgIGJveC1zaGFkb3c6IDNweCAzcHggcmdiYSgxMjUsMTI1LDEyNSwwLjIpO1xyXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogZGFya3NsYXRlZ3JheTtcclxuICAgICAgICAgIGZvbnQtc2l6ZTogMS4xcmVtO1xyXG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAxcHg7XHJcbiAgICAgICAgICBjb2xvcjogI2ZmZmZmZjtcclxuICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8Lz5cclxuICAgIClcclxufVxyXG5leHBvcnQgZGVmYXVsdCBGb3VuZGluZ01lbWJlcnMiXX0= */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\FoundingMembers.js */"));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Chiedo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), "Founder, Solutions Architect")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "founder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    height: "300px",
+    width: "300px",
+    src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-ricardo-fearing.jpg",
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "nameTag",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Ricardo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), "ReactJS / Front-End Master")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "founder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    height: "300px",
+    width: "300px",
+    src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-eric-duvon.jpg",
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "nameTag",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Eric"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), "Ruby on Rails / Back-end Pro")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "founder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    height: "300px",
+    width: "300px",
+    src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-don-townsend.jpg",
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2924191959" + " " + "nameTag",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Don"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-2924191959",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), "NodeJS / Full Stack Expert"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-2924191959" + " " + "btn btn-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Get a quote"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2924191959",
+    __self: this
+  }, ".btn-grey.jsx-2924191959{display:inline-block;background-color:darkslategray;color:#ffffff;position:relative;bottom:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcRm91bmRpbmdNZW1iZXJzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCa0IsQUFHZ0MscUJBQ1UsK0JBQ2pCLGNBQ0ksa0JBQ04sWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxGb3VuZGluZ01lbWJlcnMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG5cclxuY29uc3QgRm91bmRpbmdNZW1iZXJzID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGlkPVwiZm91bmRlcnMtY29udGFpbmVyXCI+XHJcbiAgICAgICAgICA8Q29udGFpbmVyIGNsYXNzTmFtZT1cIldoaXRlLXRpdGxlIGZvdW5kZXJzLXRpdGxlXCIgZmx1aWQ+XHJcbiAgICAgICAgICAgIDxoMz5PdXIgRm91bmRpbmcgV2ViIERldmVsb3BlcnM8L2gzPlxyXG4gICAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgICAgICAgICAgXHJcbiAgICAgICAgICA8Q29udGFpbmVyIGlkPVwiZm91bmRlcnNCbG9ja1wiIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvdW5kZXJcIj48aW1nIGhlaWdodD1cIjMwMHB4XCIgd2lkdGg9XCIzMDBweFwiIHNyYz1cImh0dHBzOi8vbGFicy5jaGllZG8uY29tL3dwLWNvbnRlbnQvdGhlbWVzL2NoaWVkb2xhYnMvaW1nL3dwLWxhbmRpbmctcGFnZS90ZWFtLWNoaWVkby1uZXcuanBnXCIvPjxkaXYgY2xhc3NOYW1lPVwibmFtZVRhZ1wiPjxzcGFuPkNoaWVkbzwvc3Bhbj48YnIvPkZvdW5kZXIsIFNvbHV0aW9ucyBBcmNoaXRlY3Q8L2Rpdj48L2Rpdj5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvdW5kZXJcIj48aW1nIGhlaWdodD1cIjMwMHB4XCIgd2lkdGg9XCIzMDBweFwiIHNyYz1cImh0dHBzOi8vbGFicy5jaGllZG8uY29tL3dwLWNvbnRlbnQvdGhlbWVzL2NoaWVkb2xhYnMvaW1nL3dwLWxhbmRpbmctcGFnZS90ZWFtLXJpY2FyZG8tZmVhcmluZy5qcGdcIi8+PGRpdiBjbGFzc05hbWU9XCJuYW1lVGFnXCI+PHNwYW4+UmljYXJkbzwvc3Bhbj48YnIvPlJlYWN0SlMgLyBGcm9udC1FbmQgTWFzdGVyPC9kaXY+PC9kaXY+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb3VuZGVyXCI+PGltZyBoZWlnaHQ9XCIzMDBweFwiIHdpZHRoPVwiMzAwcHhcIiBzcmM9XCJodHRwczovL2xhYnMuY2hpZWRvLmNvbS93cC1jb250ZW50L3RoZW1lcy9jaGllZG9sYWJzL2ltZy93cC1sYW5kaW5nLXBhZ2UvdGVhbS1lcmljLWR1dm9uLmpwZ1wiLz48ZGl2IGNsYXNzTmFtZT1cIm5hbWVUYWdcIj48c3Bhbj5FcmljPC9zcGFuPjxici8+UnVieSBvbiBSYWlscyAvIEJhY2stZW5kIFBybzwvZGl2PjwvZGl2PlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm91bmRlclwiPjxpbWcgaGVpZ2h0PVwiMzAwcHhcIiB3aWR0aD1cIjMwMHB4XCIgc3JjPVwiaHR0cHM6Ly9sYWJzLmNoaWVkby5jb20vd3AtY29udGVudC90aGVtZXMvY2hpZWRvbGFicy9pbWcvd3AtbGFuZGluZy1wYWdlL3RlYW0tZG9uLXRvd25zZW5kLmpwZ1wiLz48ZGl2IGNsYXNzTmFtZT1cIm5hbWVUYWdcIj48c3Bhbj5Eb248L3NwYW4+PGJyLz5Ob2RlSlMgLyBGdWxsIFN0YWNrIEV4cGVydDwvZGl2PjwvZGl2PlxyXG4gICAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG4gYnRuLWdyZXlcIj5HZXQgYSBxdW90ZTwvYnV0dG9uPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIC5idG4tZ3JleSB7XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkYXJrc2xhdGVncmF5O1xyXG4gICAgICAgICAgY29sb3I6ICNmZmZmZmY7XHJcbiAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgICAgICBib3R0b206IDIwcHg7XHJcbiAgICAgIH1cclxuICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgRm91bmRpbmdNZW1iZXJzIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\FoundingMembers.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (FoundingMembers);
@@ -260,14 +450,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\Header.js";
 
 
 
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1438718720" + " " + "banner",
+    className: "jsx-3762049928" + " " + "banner",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -275,25 +465,39 @@ var Header = function Header() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://labs.chiedo.com",
-    className: "jsx-1438718720",
+    className: "jsx-3762049928",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    height: "80px",
-    width: "auto",
     src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11",
     alt: "Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design",
-    className: "jsx-1438718720",
+    className: "jsx-3762049928",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
+    collapseOnSelect: true,
+    expand: "md",
     id: "nav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
+    "aria-controls": "responsive-navbar-nav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
+    id: "responsive-navbar-nav",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -307,117 +511,151 @@ var Header = function Header() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#",
+    className: "nav-link",
+    href: "#features",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, "ABOUT US"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#",
+    className: "nav-link",
+    href: "#features",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   }, "PORTFOLIO"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#",
+    className: "nav-link",
+    href: "#features",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
   }, "WHAT WE DO"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#",
+    className: "nav-link",
+    href: "#features",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
   }, "WHO WE SERVE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "#",
+    className: "nav-link",
+    href: "#features",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "CONTACT US"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  }, "CONTACT US")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     fluid: true,
     id: "callToAction",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-1438718720" + " " + "callText callMain",
+    className: "jsx-3762049928" + " " + "callText callMain",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     id: "yourNewDev",
-    className: "jsx-1438718720",
+    className: "jsx-3762049928",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, "YOUR NEW", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: "jsx-1438718720",
+    className: "jsx-3762049928",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }), " WEB DEVELOPERS")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-1438718720" + " " + "callText callBody",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "We\u2019re a team of web developers passionate about building stable, maintainable", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: "jsx-1438718720",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }), " software for tech startups and enterprise customers."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "jsx-1438718720" + " " + "btn",
+    className: "jsx-3762049928" + " " + "callText callBody",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    fluid: true,
-    id: "ourTeam",
+  }, "We\u2019re a team of web developers passionate about building stable, maintainable", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-3762049928",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), "software for tech startups and enterprise customers."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-3762049928" + " " + "btn",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-1438718720",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "Hire our team to:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-1438718720",
+  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "greybox",
+    fluid: true,
+    id: "ourTeam",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, "Build and maintain: Web applications Web back-ends Web front-ends Custom websites")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1438718720",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-3762049928" + " " + "team White-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
     __self: this
-  }, ".banner.jsx-1438718720{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:black;width:100vw;height:21.2vh;}.callMain.jsx-1438718720{font-size:6.3em;width:100vw;text-align:center;font-weight:900;text-transform:uppercase;text-shadow:1px 1px black;}.btn.jsx-1438718720{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.callBody.jsx-1438718720{font-size:28px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0QmdCLEFBRzBCLEFBU0csQUFTRSxBQUdILGVBQ0csQ0FaTixZQUNNLEtBWXRCLGFBWG9CLGdCQUNTLFNBTTdCLEdBbEJ1QixhQWNPLDBCQUM5QixzREFkMkIsbUdBQ0EsdUJBQ1gsWUFDRSxjQUNsQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1MYWJzLUhvbWVwYWdlXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcbmltcG9ydCB7IE5hdmJhciwgTmF2LCBCdXR0b24sIENvbnRhaW5lciB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuY29uc3QgSGVhZGVyID0gKCkgPT4gKFxyXG4gICAgICAgPD5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiYW5uZXJcIj5cclxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vbGFicy5jaGllZG8uY29tXCI+PGltZyBoZWlnaHQ9XCI4MHB4XCIgd2lkdGg9XCJhdXRvXCIgc3JjPVwiaHR0cHM6Ly9sYWJzLmNoaWVkby5jb20vd3AtY29udGVudC90aGVtZXMvY2hpZWRvbGFicy9pbWcvYi1sb2dvLXdoaXRlLnBuZz92ZXI9MS4xMVwiIGFsdD1cIkNoaWVkbyBMYWJzIFdlYiBEZXZlbG9wbWVudCBIYXJyaXNvbmJ1cmcgVkEgJiBDaGFybG90dGVzdmlsbGUgVkEgd2ViIGRlc2lnblwiICAvPjwvYT5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgIFxyXG4gICAgICAgIDxOYXZiYXIgIGlkPVwibmF2XCI+XHJcbiAgICAgICAgICAgIDxOYXYgY2xhc3NOYW1lPVwibXItYXV0b1wiPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5BQk9VVCBVUzwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgIDxOYXYuTGluayBocmVmPVwiI1wiPlBPUlRGT0xJTzwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgIDxOYXYuTGluayBocmVmPVwiI1wiPldIQVQgV0UgRE88L05hdi5MaW5rPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5XSE8gV0UgU0VSVkU8L05hdi5MaW5rPlxyXG4gICAgICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIiNcIj5DT05UQUNUIFVTPC9OYXYuTGluaz5cclxuICAgICAgICAgICAgPC9OYXY+XHJcbiAgICAgICAgPC9OYXZiYXI+XHJcbiAgICAgICAgPENvbnRhaW5lciBmbHVpZCBpZD1cImNhbGxUb0FjdGlvblwiPlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiY2FsbFRleHQgY2FsbE1haW5cIj48c3BhbiBpZD1cInlvdXJOZXdEZXZcIj5ZT1VSIE5FVzxici8+IFdFQiBERVZFTE9QRVJTPC9zcGFuPjwvaDE+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNhbGxUZXh0IGNhbGxCb2R5XCI+V2XigJlyZSBhIHRlYW0gb2Ygd2ViIGRldmVsb3BlcnMgcGFzc2lvbmF0ZSBhYm91dCBidWlsZGluZyBzdGFibGUsIG1haW50YWluYWJsZTxici8+IHNvZnR3YXJlIGZvciB0ZWNoIHN0YXJ0dXBzIGFuZCBlbnRlcnByaXNlIGN1c3RvbWVycy48L3A+XHJcbiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwiYnRuXCI+R2V0IGEgcXVvdGU8L2J1dHRvbj5cclxuICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIGlkPVwib3VyVGVhbVwiPlxyXG4gICAgICAgICAgICA8aDM+SGlyZSBvdXIgdGVhbSB0bzo8L2gzPlxyXG4gICAgICAgICAgICA8cD5CdWlsZCBhbmQgbWFpbnRhaW46IFdlYiBhcHBsaWNhdGlvbnMgV2ViIGJhY2stZW5kcyBXZWIgZnJvbnQtZW5kcyBDdXN0b20gd2Vic2l0ZXM8L3A+XHJcbiAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgICAgXHJcbiAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgLmJhbm5lciB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgICAgICAgICAgd2lkdGg6IDEwMHZ3O1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDIxLjJ2aDtcclxuICAgICAgICB9XHJcbiAgICAgICAgXHJcbiAgICAgICAgLmNhbGxNYWlue1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDYuM2VtO1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwdnc7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDkwMDtcclxuICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgICBcclxuICAgICAgICAgICAgdGV4dC1zaGFkb3c6IDFweCAxcHggYmxhY2s7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5idG4ge1xyXG4gICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5jYWxsQm9keSB7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMjhweDtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICAgIDwvPlxyXG4gICAgICAgIClcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlciJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Header.js */"));
+  }, "Hire our team to:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-3762049928" + " " + "team buildAndMaintain",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Build and maintain: ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3762049928",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Web applications"), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3762049928",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Web back-ends"), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3762049928",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Web front-ends"), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3762049928",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Custom websites"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3762049928",
+    __self: this
+  }, ".banner.jsx-3762049928{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:black;width:100vw;height:18vh;}.callMain.jsx-3762049928{font-size:80px;width:100vw;text-align:center;font-weight:900;text-transform:uppercase;text-shadow:1px 1px black;}.btn.jsx-3762049928{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.callBody.jsx-3762049928{text-shadow:0 1px 3px rgba(0,0,0,0.1);font-size:23px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThCZ0IsQUFHMEIsQUFTRSxBQVNHLEFBR29CLGVBWDFCLFlBQ00sV0FXSCxPQVZDLFFBV0UsUUFWTyxVQU03QixBQUtBLEdBdkJ1QixZQWNPLDBCQUM5Qix1REFkMkIsbUdBQ0EsdUJBQ1gsWUFDQSxZQUNoQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcclxuaW1wb3J0IHsgTmF2YmFyLCBOYXYsIE5hdkRyb3Bkb3duLCBCdXR0b24sIENvbnRhaW5lciB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuY29uc3QgSGVhZGVyID0gKCkgPT4gKFxyXG4gICAgICAgPD5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiYW5uZXJcIj5cclxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vbGFicy5jaGllZG8uY29tXCI+PGltZyAgc3JjPVwiaHR0cHM6Ly9sYWJzLmNoaWVkby5jb20vd3AtY29udGVudC90aGVtZXMvY2hpZWRvbGFicy9pbWcvYi1sb2dvLXdoaXRlLnBuZz92ZXI9MS4xMVwiIGFsdD1cIkNoaWVkbyBMYWJzIFdlYiBEZXZlbG9wbWVudCBIYXJyaXNvbmJ1cmcgVkEgJiBDaGFybG90dGVzdmlsbGUgVkEgd2ViIGRlc2lnblwiICAvPjwvYT5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPE5hdmJhciBjb2xsYXBzZU9uU2VsZWN0IGV4cGFuZD1cIm1kXCIgaWQ9XCJuYXZcIj5cclxuICAgICAgICAgICAgPE5hdmJhci5Ub2dnbGUgYXJpYS1jb250cm9scz1cInJlc3BvbnNpdmUtbmF2YmFyLW5hdlwiIC8+XHJcbiAgICAgICAgICAgIDxOYXZiYXIuQ29sbGFwc2UgaWQ9XCJyZXNwb25zaXZlLW5hdmJhci1uYXZcIj5cclxuICAgICAgICAgICAgICAgIDxOYXYgY2xhc3NOYW1lPVwibXItYXV0b1wiPlxyXG4gICAgICAgICAgICAgICAgPE5hdi5MaW5rIGNsYXNzTmFtZT1cIm5hdi1saW5rXCIgaHJlZj1cIiNmZWF0dXJlc1wiPkFCT1VUIFVTPC9OYXYuTGluaz5cclxuICAgICAgICAgICAgICAgIDxOYXYuTGluayBjbGFzc05hbWU9XCJuYXYtbGlua1wiIGhyZWY9XCIjZmVhdHVyZXNcIj5QT1JURk9MSU88L05hdi5MaW5rPlxyXG4gICAgICAgICAgICAgICAgPE5hdi5MaW5rIGNsYXNzTmFtZT1cIm5hdi1saW5rXCIgaHJlZj1cIiNmZWF0dXJlc1wiPldIQVQgV0UgRE88L05hdi5MaW5rPlxyXG4gICAgICAgICAgICAgICAgPE5hdi5MaW5rIGNsYXNzTmFtZT1cIm5hdi1saW5rXCIgaHJlZj1cIiNmZWF0dXJlc1wiPldITyBXRSBTRVJWRTwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgICAgICA8TmF2LkxpbmsgY2xhc3NOYW1lPVwibmF2LWxpbmtcIiBocmVmPVwiI2ZlYXR1cmVzXCI+Q09OVEFDVCBVUzwvTmF2Lkxpbms+XHJcbiAgICAgICAgICAgICAgICA8L05hdj5cclxuICAgICAgICAgICAgPC9OYXZiYXIuQ29sbGFwc2U+XHJcbiAgICAgICAgPC9OYXZiYXI+XHJcbiAgICAgICAgPENvbnRhaW5lciBmbHVpZCBpZD1cImNhbGxUb0FjdGlvblwiPlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiY2FsbFRleHQgY2FsbE1haW5cIj48c3BhbiBpZD1cInlvdXJOZXdEZXZcIj5ZT1VSIE5FVzxici8+IFdFQiBERVZFTE9QRVJTPC9zcGFuPjwvaDE+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNhbGxUZXh0IGNhbGxCb2R5XCI+V2XigJlyZSBhIHRlYW0gb2Ygd2ViIGRldmVsb3BlcnMgcGFzc2lvbmF0ZSBhYm91dCBidWlsZGluZyBzdGFibGUsIG1haW50YWluYWJsZTxici8+IFxyXG4gICAgICAgICAgICBzb2Z0d2FyZSBmb3IgdGVjaCBzdGFydHVwcyBhbmQgZW50ZXJwcmlzZSBjdXN0b21lcnMuPC9wPlxyXG4gICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkdldCBhIHF1b3RlPC9idXR0b24+XHJcbiAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgICAgPENvbnRhaW5lciBjbGFzc05hbWU9XCJncmV5Ym94XCIgZmx1aWQgaWQ9XCJvdXJUZWFtXCI+XHJcbiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0ZWFtIFdoaXRlLXRpdGxlXCI+SGlyZSBvdXIgdGVhbSB0bzo8L2gzPlxyXG4gICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZWFtIGJ1aWxkQW5kTWFpbnRhaW5cIj5CdWlsZCBhbmQgbWFpbnRhaW46IDxzcGFuPldlYiBhcHBsaWNhdGlvbnM8L3NwYW4+IDxzcGFuPldlYiBiYWNrLWVuZHM8L3NwYW4+IDxzcGFuPldlYiBmcm9udC1lbmRzPC9zcGFuPiA8c3Bhbj5DdXN0b20gd2Vic2l0ZXM8L3NwYW4+PC9wPlxyXG4gICAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICAgIFxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIC5iYW5uZXIge1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDB2dztcclxuICAgICAgICAgICAgaGVpZ2h0OiAxOHZoO1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICAgICAuY2FsbE1haW57XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogODBweDtcclxuICAgICAgICAgICAgd2lkdGg6IDEwMHZ3O1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA5MDA7XHJcbiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICAgXHJcbiAgICAgICAgICAgIHRleHQtc2hhZG93OiAxcHggMXB4IGJsYWNrO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuYnRuIHtcclxuICAgICAgICAgICAgYWxpZ24tc2VsZjogY2VudGVyO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuY2FsbEJvZHkge1xyXG4gICAgICAgICAgICB0ZXh0LXNoYWRvdzogMCAxcHggM3B4IHJnYmEoMCwwLDAsMC4xKTtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAyM3B4O1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgYH08L3N0eWxlPlxyXG4gICAgPC8+XHJcbiAgICAgICAgKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\Header.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -437,7 +675,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-server/head */ "next-server/head");
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\Layout.js";
 
 
 
@@ -493,13 +731,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\MoreLinks.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\MoreLinks.js";
 
 
 
 
 var MoreLinks = function MoreLinks() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    id: "linksAndFounder",
     fluid: true,
     style: {
       lineHeight: '32px'
@@ -516,58 +755,98 @@ var MoreLinks = function MoreLinks() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    className: "moreLinks",
     lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-2789876640" + " " + "redText",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "More Links")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-    lg: 9,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    style: {
+      fontSize: '2.5rem'
+    },
+    className: "jsx-2789876640" + " " + "redText",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "More Links"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-2789876640",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Blog"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-2789876640",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Join the Team"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-2789876640",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-2789876640",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Twitter"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    lg: 9,
+    className: "ourFounder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 18
     },
     __self: this
   }, "Meet Our Founder"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "jsx-2789876640",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 19
     },
     __self: this
   }, "If you need new web developers or want to talk about your tech startup, let's connect on LinkedIn and meet for lunch or coffee!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "jsx-2789876640" + " " + "btn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 23
     },
     __self: this
   }, "Connect on LinkedIn")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2789876640",
     __self: this
-  }, ".button.jsx-2789876640{width:200px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXE1vcmVMaW5rcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXa0IsQUFHeUIsWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcTW9yZUxpbmtzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuXHJcbmNvbnN0IE1vcmVMaW5rcyA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8Q29udGFpbmVyIGZsdWlkIHN0eWxlPXt7IGxpbmVIZWlnaHQ6ICczMnB4JyB9fT5cclxuICAgICAgICA8Um93PlxyXG4gICAgICAgICAgICA8Q29sIGxnPXszfT48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+TW9yZSBMaW5rczwvc3Bhbj48L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17OX0+PGgzPk1lZXQgT3VyIEZvdW5kZXI8L2gzPjxici8+PHA+SWYgeW91IG5lZWQgbmV3IHdlYiBkZXZlbG9wZXJzIG9yIHdhbnQgdG8gdGFsayBhYm91dCB5b3VyIHRlY2ggc3RhcnR1cCwgbGV0J3MgY29ubmVjdCBvbiBMaW5rZWRJbiBhbmQgbWVldCBmb3IgbHVuY2ggb3IgY29mZmVlITwvcD48YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkNvbm5lY3Qgb24gTGlua2VkSW48L2J1dHRvbj48L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgLmJ1dHRvbiB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgTW9yZUxpbmtzIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\MoreLinks.js */"));
+  }, ".button.jsx-2789876640{width:200px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcTW9yZUxpbmtzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTBCa0IsQUFHeUIsWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxNb3JlTGlua3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG5cclxuY29uc3QgTW9yZUxpbmtzID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgIDxDb250YWluZXIgaWQ9XCJsaW5rc0FuZEZvdW5kZXJcIiBmbHVpZCBzdHlsZT17eyBsaW5lSGVpZ2h0OiAnMzJweCcgfX0+XHJcbiAgICAgICAgPFJvdz5cclxuICAgICAgICAgICAgPENvbCAgY2xhc3NOYW1lPVwibW9yZUxpbmtzXCIgbGc9ezN9PlxyXG4gICAgICAgICAgICA8dWw+XHJcbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIiBzdHlsZT17eyBmb250U2l6ZTogJzIuNXJlbScsIH19Pk1vcmUgTGlua3M8L3NwYW4+XHJcbiAgICAgICAgICAgICAgICA8bGk+QmxvZzwvbGk+XHJcbiAgICAgICAgICAgICAgICA8bGk+Sm9pbiB0aGUgVGVhbTwvbGk+XHJcbiAgICAgICAgICAgICAgICA8bGk+RmFjZWJvb2s8L2xpPlxyXG4gICAgICAgICAgICAgICAgPGxpPlR3aXR0ZXI8L2xpPlxyXG4gICAgICAgICAgICA8L3VsPlxyXG4gICAgICAgICAgICA8L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17OX0gY2xhc3NOYW1lPVwib3VyRm91bmRlclwiPlxyXG4gICAgICAgICAgICA8aDM+TWVldCBPdXIgRm91bmRlcjwvaDM+PGJyLz5cclxuICAgICAgICAgICAgICAgIDxwPklmIHlvdSBuZWVkIG5ldyB3ZWIgZGV2ZWxvcGVycyBvciB3YW50IHRvIHRhbGsgYWJvdXQgXHJcbiAgICAgICAgICAgICAgICAgICAgeW91ciB0ZWNoIHN0YXJ0dXAsIGxldCdzIGNvbm5lY3Qgb24gTGlua2VkSW4gYW5kIG1lZXQgXHJcbiAgICAgICAgICAgICAgICAgICAgZm9yIGx1bmNoIG9yIGNvZmZlZSFcclxuICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5Db25uZWN0IG9uIExpbmtlZEluPC9idXR0b24+XHJcbiAgICAgICAgICAgIDwvQ29sPlxyXG4gICAgICAgIDwvUm93PlxyXG4gICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgPHN0eWxlIGpzeD57YCBcclxuICAgICAgICAuYnV0dG9uIHtcclxuICAgICAgICAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8Lz5cclxuICAgIClcclxufVxyXG5leHBvcnQgZGVmYXVsdCBNb3JlTGlua3MiXX0= */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\MoreLinks.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MoreLinks);
@@ -589,7 +868,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Portfolio.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\Portfolio.js";
 
 
 
@@ -699,7 +978,7 @@ var Portfolio = function Portfolio() {
   }, "Placeholder"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFBvcnRmb2xpby5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQmtCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFBvcnRmb2xpby5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbnRhaW5lciwgUm93LCBDb2wgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnXHJcblxyXG5jb25zdCBQb3J0Zm9saW8gPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDw+XHJcbiAgICAgICAgPENvbnRhaW5lciBmbHVpZCBzdHlsZT17eyBsaW5lSGVpZ2h0OiAnMzJweCcsIHdpZHRoOiAnMTAwdncnIH19PlxyXG4gICAgICAgIDxSb3cgY2xhc3NOYW1lPVwianVzdGlmeS1jb250ZW50LW1kLWNlbnRlclwiIHN0eWxlPXt7IHdpZHRoOiAnMTAwdncnIH19PlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgICAgIDxDb2wgbGc9ezIuNH0+UGxhY2Vob2xkZXI8L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgICAgIDxDb2wgbGc9ezIuNH0+UGxhY2Vob2xkZXI8L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgICA8Um93IGNsYXNzTmFtZT1cImp1c3RpZnktY29udGVudC1tZC1jZW50ZXJcIiBzdHlsZT17eyB3aWR0aDogJzEwMHZ3JyB9fT5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgICAgIDxDb2wgbGc9ezIuNH0+UGxhY2Vob2xkZXI8L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IFBvcnRmb2xpbyJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\Portfolio.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcUG9ydGZvbGlvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCa0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tbGFicy1ob21lcGFnZS1yZWJ1aWxkXFxjb21wb25lbnRzXFxQb3J0Zm9saW8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG5cclxuY29uc3QgUG9ydGZvbGlvID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnLCB3aWR0aDogJzEwMHZ3JyB9fT5cclxuICAgICAgICA8Um93IGNsYXNzTmFtZT1cImp1c3RpZnktY29udGVudC1tZC1jZW50ZXJcIiBzdHlsZT17eyB3aWR0aDogJzEwMHZ3JyB9fT5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgICAgIDxDb2wgbGc9ezIuNH0+UGxhY2Vob2xkZXI8L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgICAgPFJvdyBjbGFzc05hbWU9XCJqdXN0aWZ5LWNvbnRlbnQtbWQtY2VudGVyXCIgc3R5bGU9e3sgd2lkdGg6ICcxMDB2dycgfX0+XHJcbiAgICAgICAgICAgIDxDb2wgbGc9ezIuNH0+UGxhY2Vob2xkZXI8L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgICAgICA8Q29sIGxnPXsyLjR9PlBsYWNlaG9sZGVyPC9Db2w+XHJcbiAgICAgICAgICAgIDxDb2wgbGc9ezIuNH0+UGxhY2Vob2xkZXI8L0NvbD5cclxuICAgICAgICAgICAgPENvbCBsZz17Mi40fT5QbGFjZWhvbGRlcjwvQ29sPlxyXG4gICAgICAgIDwvUm93PlxyXG4gICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgPHN0eWxlIGpzeD57YCBcclxuICAgICAgICBcclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8Lz5cclxuICAgIClcclxufVxyXG5leHBvcnQgZGVmYXVsdCBQb3J0Zm9saW8iXX0= */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\Portfolio.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Portfolio);
@@ -721,7 +1000,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhatWeDo.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\WhatWeDo.js";
 
 
  // import { codeImage } from '../.next/static/images/numbers.png';
@@ -734,81 +1013,113 @@ var WhatWeDo = function WhatWeDo() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    sm: 0,
+    md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    sm: 12,
+    md: 6,
     id: "WhatWeDo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     className: "jsx-1471395879",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-1471395879" + " " + "redText",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 10
     },
     __self: this
-  }, "WHAT"), " WE DO"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "WHAT"), " WE DO"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     className: "jsx-1471395879",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1471395879",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
     },
     __self: this
   }, "We build and maintain:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "jsx-1471395879",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
+    className: "jsx-1471395879",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Web Front-Ends"), " with HTML, CSS, and a library called React."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1471395879",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
+    className: "jsx-1471395879",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Web Back-ends"), " using NodeJS, Ruby on Rails, PHP, MySQL, AWS, and Heroku."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1471395879",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "Web Front-Ends with HTML, CSS, and a library called React."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     className: "jsx-1471395879",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Custom Websites"), " from the ground up as opposed to using pre-existing templates."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "jsx-1471395879" + " " + "btn",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Web Back-ends using NodeJS, Ruby on Rails, PHP, MySQL, AWS, and Heroku."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-1471395879",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Custom Websites from the ground up as opposed to using pre-existing templates."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "jsx-1471395879" + " " + "btn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
   }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdoYXRXZURvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Ca0IiLCJmaWxlIjoiQzpcXFVzZXJzXFxSeWFuIEJvb3RoXFxEb2N1bWVudHNcXENvZGluZ1Byb2otRmViXFxDaGllZG8tTGFicy1Ib21lcGFnZVxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcV2hhdFdlRG8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG4vLyBpbXBvcnQgeyBjb2RlSW1hZ2UgfSBmcm9tICcuLi8ubmV4dC9zdGF0aWMvaW1hZ2VzL251bWJlcnMucG5nJztcclxuY29uc3QgV2hhdFdlRG8gPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDw+XHJcblxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgIDxSb3c+XHJcbiAgICAgICAgICB7LyogPENvbD48aW1nIHNyYz17Y29kZUltYWdlfS8+PC9Db2w+ICovfVxyXG4gICAgICAgICAgPENvbD48L0NvbD5cclxuICAgICAgICAgIDxDb2wgaWQ9XCJXaGF0V2VEb1wiPlxyXG4gICAgICAgICAgICA8aDM+PHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPldIQVQ8L3NwYW4+IFdFIERPPC9oMz5cclxuICAgICAgICAgICAgPHA+V2UgYnVpbGQgYW5kIG1haW50YWluOjwvcD5cclxuICAgICAgICAgICAgPHA+V2ViIEZyb250LUVuZHMgd2l0aCBIVE1MLCBDU1MsIGFuZCBhIGxpYnJhcnkgY2FsbGVkIFJlYWN0LjwvcD5cclxuICAgICAgICAgICAgPHA+V2ViIEJhY2stZW5kcyB1c2luZyBOb2RlSlMsIFJ1Ynkgb24gUmFpbHMsIFBIUCwgTXlTUUwsIEFXUywgYW5kIEhlcm9rdS48L3A+XHJcbiAgICAgICAgICAgIDxwPkN1c3RvbSBXZWJzaXRlcyBmcm9tIHRoZSBncm91bmQgdXAgYXMgb3Bwb3NlZCB0byB1c2luZyBwcmUtZXhpc3RpbmcgdGVtcGxhdGVzLjwvcD5cclxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPlxyXG4gICAgICAgICAgPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IFdoYXRXZURvIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhatWeDo.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcV2hhdFdlRG8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0JrQiIsImZpbGUiOiJDOlxcVXNlcnNcXFJ5YW4gQm9vdGhcXERvY3VtZW50c1xcQ29kaW5nUHJvai1GZWJcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdoYXRXZURvLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCdcclxuLy8gaW1wb3J0IHsgY29kZUltYWdlIH0gZnJvbSAnLi4vLm5leHQvc3RhdGljL2ltYWdlcy9udW1iZXJzLnBuZyc7XHJcbmNvbnN0IFdoYXRXZURvID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgIDxDb250YWluZXIgZmx1aWQgc3R5bGU9e3sgbGluZUhlaWdodDogJzMycHgnIH19PlxyXG4gICAgICAgIDxSb3c+XHJcbiAgICAgICAgICA8Q29sIHNtPXswfSBtZD17Nn0+PC9Db2w+XHJcbiAgICAgICAgICA8Q29sIHNtPXsxMn0gbWQ9ezZ9IGlkPVwiV2hhdFdlRG9cIj5cclxuICAgICAgICAgICAgPGgzPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5XSEFUPC9zcGFuPiBXRSBETzwvaDM+PGJyLz5cclxuICAgICAgICAgICAgPHA+V2UgYnVpbGQgYW5kIG1haW50YWluOjwvcD5cclxuICAgICAgICAgICAgPHA+PHU+V2ViIEZyb250LUVuZHM8L3U+IHdpdGggSFRNTCwgQ1NTLCBhbmQgYSBsaWJyYXJ5IGNhbGxlZCBSZWFjdC48L3A+XHJcbiAgICAgICAgICAgIDxwPjx1PldlYiBCYWNrLWVuZHM8L3U+IHVzaW5nIE5vZGVKUywgUnVieSBvbiBSYWlscywgUEhQLCBNeVNRTCwgQVdTLCBhbmQgSGVyb2t1LjwvcD5cclxuICAgICAgICAgICAgPHA+PHU+Q3VzdG9tIFdlYnNpdGVzPC91PiBmcm9tIHRoZSBncm91bmQgdXAgYXMgb3Bwb3NlZCB0byB1c2luZyBwcmUtZXhpc3RpbmcgdGVtcGxhdGVzLjwvcD5cclxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPlxyXG4gICAgICAgICAgPC9Db2w+XHJcbiAgICAgICAgPC9Sb3c+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgICA8c3R5bGUganN4PntgIFxyXG4gICAgICAgIFxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IFdoYXRXZURvIl19 */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\WhatWeDo.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (WhatWeDo);
@@ -830,13 +1141,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhoWeServe.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\WhoWeServe.js";
 
 
 
 
 var WhoWeServe = function WhoWeServe() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "lighterGreyBox",
     id: "WhoWeServe",
     fluid: true,
     __source: {
@@ -851,6 +1163,8 @@ var WhoWeServe = function WhoWeServe() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    sm: 12,
+    md: 6,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -912,10 +1226,18 @@ var WhoWeServe = function WhoWeServe() {
       lineNumber: 11
     },
     __self: this
-  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Get a quote")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    sm: 0,
+    md: 6,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1471395879",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdob1dlU2VydmUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY2tCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLUxhYnMtSG9tZXBhZ2VcXENoaWVkby1sYWJzLWhvbWVwYWdlLXJlYnVpbGRcXGNvbXBvbmVudHNcXFdob1dlU2VydmUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJ1xyXG5cclxuY29uc3QgV2hvV2VTZXJ2ZSA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuXHJcbiAgICAgICAgPENvbnRhaW5lciBpZD1cIldob1dlU2VydmVcIiBmbHVpZCA+XHJcbiAgICAgICAgPFJvdz5cclxuICAgICAgICAgIDxDb2w+PGgzPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5XSE88L3NwYW4+IFdFIFNFUlZFPC9oMz48YnIvPjxwPjxzcGFuIGNsYXNzTmFtZT1cInJlZFRleHRcIj5FbnRlcnByaXNlIGN1c3RvbWVyczwvc3Bhbj4gaGlyZSB1cyB0byBidWlsZCBhbmQgbWFpbnRhaW4gdGhlIHdlYiBhcHBzIGNyaXRpY2FsIHRvIHRoZWlyIG9wZXJhdGlvbnMuIFxyXG4gICAgICAgICAgPGJyLz48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+VGVjaCBzdGFydHVwczwvc3Bhbj4gcGFydG5lciB3aXRoIHVzIHRvIGJ1aWxkIGFuZCBtYWludGFpbiB0aGUgd2ViIGZyb250LWVuZHMgYW5kIGJhY2stZW5kcyBhdCB0aGUgY29yZSBvZiB0aGVpciBidXNpbmVzcy48L3A+XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkdldCBhIHF1b3RlPC9idXR0b24+XHJcbiAgICAgICAgICA8L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgV2hvV2VTZXJ2ZSJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\components\\WhoWeServe.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcV2hvV2VTZXJ2ZS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmtCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcUnlhbiBCb290aFxcRG9jdW1lbnRzXFxDb2RpbmdQcm9qLUZlYlxcQ2hpZWRvLWxhYnMtaG9tZXBhZ2UtcmVidWlsZFxcY29tcG9uZW50c1xcV2hvV2VTZXJ2ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbnRhaW5lciwgUm93LCBDb2wgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnXHJcblxyXG5jb25zdCBXaG9XZVNlcnZlID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG5cclxuICAgICAgICA8Q29udGFpbmVyIGNsYXNzTmFtZT1cImxpZ2h0ZXJHcmV5Qm94XCIgaWQ9XCJXaG9XZVNlcnZlXCIgZmx1aWQgPlxyXG4gICAgICAgIDxSb3c+XHJcbiAgICAgICAgICA8Q29sIHNtPXsxMn0gbWQ9ezZ9PjxoMz48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+V0hPPC9zcGFuPiBXRSBTRVJWRTwvaDM+PGJyLz48cD48c3BhbiBjbGFzc05hbWU9XCJyZWRUZXh0XCI+RW50ZXJwcmlzZSBjdXN0b21lcnM8L3NwYW4+IGhpcmUgdXMgdG8gYnVpbGQgYW5kIG1haW50YWluIHRoZSB3ZWIgYXBwcyBjcml0aWNhbCB0byB0aGVpciBvcGVyYXRpb25zLiBcclxuICAgICAgICAgIDxici8+PHNwYW4gY2xhc3NOYW1lPVwicmVkVGV4dFwiPlRlY2ggc3RhcnR1cHM8L3NwYW4+IHBhcnRuZXIgd2l0aCB1cyB0byBidWlsZCBhbmQgbWFpbnRhaW4gdGhlIHdlYiBmcm9udC1lbmRzIGFuZCBiYWNrLWVuZHMgYXQgdGhlIGNvcmUgb2YgdGhlaXIgYnVzaW5lc3MuPC9wPlxyXG4gICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5HZXQgYSBxdW90ZTwvYnV0dG9uPlxyXG4gICAgICAgICAgPC9Db2w+XHJcbiAgICAgICAgICA8Q29sIHNtPXswfSBtZD17Nn0+XHJcbiAgICAgICAgICA8L0NvbD5cclxuICAgICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2AgXHJcbiAgICAgICAgXHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgV2hvV2VTZXJ2ZSJdfQ== */\n/*@ sourceURL=C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\components\\WhoWeServe.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (WhoWeServe);
@@ -1690,7 +2012,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CultureBlog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/CultureBlog */ "./components/CultureBlog.js");
 /* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
 /* harmony import */ var _components_MoreLinks__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/MoreLinks */ "./components/MoreLinks.js");
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\pages\\index.js";
 
 
 
@@ -1769,14 +2091,14 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Ryan Booth\Documents\CodingProj-Feb\Chiedo-Labs-Homepage\Chiedo-labs-homepage-rebuild\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Ryan Booth\Documents\CodingProj-Feb\Chiedo-labs-homepage-rebuild\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

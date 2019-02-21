@@ -1908,7 +1908,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-Labs-Homepage\\Chiedo-labs-homepage-rebuild\\pages\\_document.js";
+var _jsxFileName = "C:\\Users\\Ryan Booth\\Documents\\CodingProj-Feb\\Chiedo-labs-homepage-rebuild\\pages\\_document.js";
 
 
 
