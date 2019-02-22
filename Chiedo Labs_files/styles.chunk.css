@@ -1,0 +1,282 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+#foundersBlock {
+  padding-top: 1em;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+#founders-container {
+  background-color: #b6352d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 40vh; }
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 1; }
+  .founder .nameTag {
+    display: inline-block;
+    position: relative;
+    bottom: 58px;
+    background-color: rgba(51, 51, 51, 0.8);
+    width: 320px;
+    color: white;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: .9rem; }
+    .founder .nameTag span {
+      font-size: 1.2rem; }
+
+.founders-title {
+  letter-spacing: .5rem;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 1em;
+  max-width: 85vw; }
+
+.redText {
+  font-weight: 900;
+  color: #B92C2C; }
+
+.White-title {
+  font-size: 2.5em;
+  font-weight: 100;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center; }
+
+.greybox {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.lighterGreyBox {
+  background-color: #F2F2F2;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+#nav {
+  border-bottom: 3px solid #b6352d;
+  background-color: #333333;
+  padding: 0; }
+  #nav .nav-link {
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: #f5e3e2;
+    height: 100%;
+    margin: 0;
+    padding: .3rem 1rem .3rem 2rem;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+    font-size: 16px; }
+  #nav .nav-link:hover {
+    background-color: #b6352d; }
+
+.btn {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: .8em;
+  box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
+  background-color: #B92C2C;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
+
+#callToAction {
+  background-color: #606060;
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: none; }
+  #callToAction .callText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center; }
+
+#ourTeam {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 48vh; }
+  #ourTeam .team {
+    display: flex;
+    flex-direction: column; }
+  #ourTeam .buildAndMaintain {
+    font-size: 1.2em;
+    color: #b6352d;
+    font-weight: bold; }
+  #ourTeam span {
+    padding: 0em .7em 0 .7em; }
+
+#WhatWeDo {
+  padding: 3em 1em 2em 2em;
+  background-color: #F2F2F2;
+  width: 100vw;
+  min-height: 50vh;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+#WhoWeServe {
+  padding: 2em;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+  min-height: 50vh; }
+
+#CultureBlog {
+  min-height: 50vh; }
+  #CultureBlog #featured-image-ricardo {
+    padding-top: 2em; }
+  #CultureBlog .startUp {
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+    #CultureBlog .startUp .btn {
+      display: flex;
+      align-self: flex-start; }
+  #CultureBlog .greybox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+  #CultureBlog #PostColumn {
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 55vh;
+    background-color: #F2F2F2; }
+    #CultureBlog #PostColumn h3 {
+      font-size: 2.3rem;
+      padding: .5em 0 .5em 0; }
+    #CultureBlog #PostColumn a {
+      font-size: 18px;
+      line-height: 200%;
+      font-family: "Open Sans", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      line-height: 3rem;
+      height: 250px;
+      width: 250px; }
+
+#linksAndFounder {
+  width: 100vw;
+  min-height: 50vh; }
+  #linksAndFounder .moreLinks {
+    width: 100vw;
+    min-height: 50vh;
+    text-align: center;
+    background-color: #F2F2F2; }
+    #linksAndFounder .moreLinks ul {
+      padding-top: 10px;
+      list-style-type: none; }
+  #linksAndFounder #featured-image-chiedo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 2em 2em 2em 2em; }
+  #linksAndFounder .ourFounder {
+    background-color: #333333;
+    color: white;
+    padding: 2em 3em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    align-items: flex-start; }
+
+@media (min-width: 1266px) {
+  #foundersBlock {
+    flex-direction: row; }
+  .founder {
+    border: solid .5em transparent; }
+  #ourTeam {
+    flex-direction: column; }
+    #ourTeam .team {
+      flex-direction: row; }
+  #callToAction {
+    display: flex; } }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

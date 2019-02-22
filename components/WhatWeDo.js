@@ -5,7 +5,7 @@ const WhatWeDo = () => {
         <>
         <Container fluid style={{ lineHeight: '32px' }}>
         <Row>
-          <Col sm={0} md={6}><img src=""/></Col>
+          <Col sm={0} md={6}id="featured-image-misc1"></Col>
           <Col sm={12} md={6} id="WhatWeDo">
             <h3><span className="redText">WHAT</span> WE DO</h3><br/>
             <p>We build and maintain:</p>

@@ -2,14 +2,13 @@ import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 const Header = (props) => (
        <>
-      
             <div className="banner">
             <a href="https://labs.chiedo.com"><img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA & Charlottesville VA web design"  /></a>
             </div>
         <Navbar collapseOnSelect expand="md" id="nav">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="mr-auto collapse show">
                 <Nav.Link className="nav-link" href="#">ABOUT US</Nav.Link>
                 <Nav.Link className="nav-link" href="#">PORTFOLIO</Nav.Link>
                 <Nav.Link className="nav-link" href="#">WHAT WE DO</Nav.Link>

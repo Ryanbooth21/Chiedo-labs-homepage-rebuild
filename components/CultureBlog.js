@@ -20,7 +20,7 @@ class CultureBlog extends React.Component {
   render() {
     return (
         <>
-        <Container id="CultureBlog" fluid style={{ lineHeight: '15vh', }}>
+        <Container id="CultureBlog" fluid >
         <Row>
           <Col id="featured-image-ricardo" className="greybox" lg={4}><img src='https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/img-ricardo-monicle.jpg'/></Col>
             <Col className="startUp" lg={5} style={{ padding: '3em' }}>

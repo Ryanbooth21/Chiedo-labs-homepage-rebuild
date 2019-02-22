@@ -5,20 +5,18 @@ const Portfolio = (props) => {
     return (
         <>
         
-        <Container fluid style={{ lineHeight: '32px', width: '100vw' }}>
-        <Row className="justify-content-md-center" style={{ width: '100vw' }}>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
+        <Container id="case-study-container" fluid style={{ lineHeight: '32px', width: '100vw' }}>
+        <Row className="case-study-row justify-content-md-center" style={{ width: '100vw' }}>
+            <Col lg={12}>
+                <span id="" className="case-study"><h4></h4></span>
+                <span id="bridgewater" className="case-study"><h4></h4></span>
+                <span id="" className="case-study"><h4></h4></span>
+                <span id="" className="case-study"><h4></h4></span>
+                <span id="" className="case-study"><h4></h4></span>
+            </Col>
         </Row>
-        <Row className="justify-content-md-center" style={{ width: '100vw' }}>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
-            <Col lg={2.4}></Col>
+        <Row className="case-study-row justify-content-md-center" style={{ width: '100vw' }}>
+            <Col lg={12}></Col>
         </Row>
       </Container>
       <style jsx>{` 

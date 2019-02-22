@@ -32,7 +32,9 @@ body, html {
 p {
   @include bodyStyle;
 }
-
+.centered {
+  @include centeredContent;
+}
 #foundersBlock {
   padding-top: 1em;
   max-width: 90vw;
@@ -50,16 +52,19 @@ p {
 .founder {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  flex-shrink: 1;
+  img {
+    max-width: 100%;
+    width: 300px;
+    flex: 1;
+  }
   .nameTag{
-    display: inline-block;
+    display: block;
     position: relative;
     bottom: 58px;
     background-color: rgba(51, 51, 51, .8);
-    width: 320px;
+    width: 100%;
     color: white;
     @include bodyStyle;
     font-size: .9rem;
@@ -99,12 +104,15 @@ p {
   background-color: $lighterGrey;
   @include bodyStyle;
 }
-#nav  {
+
+#nav {
     border-bottom: 3px solid $red;
     background-color: #333333;
     padding: 0;
+    
     .nav-link{
       display: inline-block;
+      justify-content: center;
       display: flex;
       text-align: center;
       color: rgb(245, 227, 226);
@@ -112,6 +120,8 @@ p {
       margin: 0;
       padding: .3rem 1rem .3rem 2rem;
       @include bodyStyle;
+      font-weight: 100;
+      font-size: 16px;
     }
     .nav-link:hover {
       background-color: $red;
@@ -120,10 +130,9 @@ p {
 .btn {
   display: inline-block;
   padding: 1.2em 1.4em;
-  margin-top: .8em;
   box-shadow: 3px 3px rgba(125,125,125,0.2);
   background-color: #B92C2C;
-  font-size: .9rem;
+  font-size: .8rem;
   font-weight: 700;
   letter-spacing: 1px;
   color: #ffffff;
@@ -143,7 +152,14 @@ p {
     }
     display: none;
 }
-
+#featured-image-misc1 {
+  background-image: url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+}
+#featured-image-misc2 {
+  background-image: url('https://www.webascender.com/wp-content/uploads/team-1.jpg');
+  background-size: cover;
+  
+}
 #ourTeam {
   background-color: $grey;
   color: white;
@@ -171,15 +187,18 @@ p {
 }
 
 #WhoWeServe {
-  padding: 2em;
+  
   @include bodyStyle;
   @include pageBlock;
+  #WhoWeServeText {
+    padding-top: 2em;
+  }
 }
 #CultureBlog{
   min-height: 50vh;
   #featured-image-ricardo { 
     //this is a magic number. Working on fixing it.
-    padding-left: 2em;
+    padding-top: 2em;
   }
   .startUp{
     background-color: $grey;
@@ -201,7 +220,6 @@ p {
     background-color: $lighterGrey;
     h3 {
       font-size: 2.3rem;
-      padding: .5em 0 .5em 0;
     }
     a {
       @include bodyStyle;
@@ -215,7 +233,7 @@ p {
   }
 }
 
-  
+
 #linksAndFounder {
   @include pageBlock;
   .moreLinks {
@@ -223,7 +241,6 @@ p {
     @include centeredContent;
     text-align: center;
     background-color: $lighterGrey;
-    padding: 2em 2em 2em 2em;
     ul {
       padding-top: 10px;
       list-style-type: none;
@@ -233,7 +250,8 @@ p {
   #featured-image-chiedo {
       @include centeredContent;
       overflow: hidden;
-      padding: 2em 2em 2em 2em;
+      max-width: 100%;
+      height: auto;
     }
   .ourFounder {
     background-color: $grey;
@@ -244,6 +262,19 @@ p {
     align-items: flex-start
   }
 }
+
+@media (max-width: 966px){
+  #featured-image-chiedo {
+    padding-top: 2em;
+  }
+}
+@media (min-width: 768px) {
+ #nav {
+   height: 45px;
+ }
+
+}
+
 @media (min-width: 1266px) { 
   #foundersBlock {
     flex-direction: row;
@@ -262,3 +293,5 @@ p {
   }
   
  }
+
+ 
