@@ -190,15 +190,17 @@ p {
   
   @include bodyStyle;
   @include pageBlock;
-  #WhoWeServeText {
-    padding-top: 2em;
+  #WhoWeServeText{
+    padding: 3em 1em 2em 2em;
   }
 }
 #CultureBlog{
   min-height: 50vh;
   #featured-image-ricardo { 
     //this is a magic number. Working on fixing it.
-    padding-top: 2em;
+    max-width: 100%;
+    height: auto;
+    padding-top: 1em;
   }
   .startUp{
     background-color: $grey;
