@@ -270,17 +270,20 @@ p {
 .case-study-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   min-height: 20vh;
   width: 100vw;
+
 }
 .case-study-div {
  display: flex;
-
+ width: 20vw;
+ height: 25vh;
  flex-basis: 1;
- flex: 2;
- background-size: cover;
+ flex-shrink: 2;
+ background-size: contain;
+ background-repeat: no-repeat;
  background-position: center;
+ 
  h4 {
    display: none;
  }
