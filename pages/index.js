@@ -20,7 +20,7 @@ const Index = (props) => {
         <FoundingMembers media={props.media}/>
         <WhoWeServe/>
         <CultureBlog posts={props.posts}/>
-        <Portfolio/>
+        <Portfolio media={props.media}/>
         <MoreLinks/>
     </Layout>
     )
@@ -28,7 +28,7 @@ const Index = (props) => {
 
 Index.getInitialProps = async function()  {
     const [res, res2] = await Promise.all([
-        fetch('https://beta.chiedo.com/wp-json/wp/v2/media'),
+        fetch('https://beta.chiedo.com/wp-json/wp/v2/media?per_page=100'),
         fetch('https://beta.chiedo.com/wp-json/wp/v2/posts')
     ]) 
 

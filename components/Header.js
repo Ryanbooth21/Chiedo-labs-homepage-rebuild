@@ -34,7 +34,7 @@ const Header = (props) => (
             align-items: center;
             justify-content: center;
             background-color: black;
-            width: 100vw;
+           
             height: 18vh;
         }
         
