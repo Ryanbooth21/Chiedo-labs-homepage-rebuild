@@ -192,7 +192,7 @@ p {
 #WhoWeServe {
   
   @include bodyStyle;
-  @include pageBlock;
+  min-height: 50vh;
   #WhoWeServeText{
     padding: 3em 1em 2em 2em;
   }
@@ -240,7 +240,7 @@ p {
 
 
 #linksAndFounder {
-  
+  margin-top: -.5em;
   .moreLinks {
     @include pageBlock;
     @include centeredContent;
