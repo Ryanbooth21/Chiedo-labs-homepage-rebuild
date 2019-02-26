@@ -1,6 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap'
-import { mapContextToProps } from 'react-context-toolbox';
-
 
 const Portfolio = (props) => {
     
@@ -14,69 +11,48 @@ const Portfolio = (props) => {
     return (
         <>
         {console.log(editedArray)}
-        <Container id="case-study-container justify-content-center" fluid style={{ lineHeight: '32px', width: '100vw' }}>
-        <Row className="case-study-row" style={{ width: '100vw' }}>
-            
+        <div id="case-study-container " fluid >
                 <div style={{ backgroundImage: `url(${editedArray[0].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[0].alt_text}</h4>
+                    <h4 className="case-study-title">BARTRACK</h4>
                     
                 </div>
-            
-            
                 <div style={{ backgroundImage: `url(${editedArray[1].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[1].alt_text}</h4>
+                    <h4 className="case-study-title">EHRC</h4>
                     
                 </div>
-            
-            
                 <div style={{ backgroundImage: `url(${editedArray[2].source_url})`}} className="case-study-div">
-                    <h4 style={{ backgroundImage: `url(${editedArray[2].source_url})`}} className="case-study-title">{editedArray[2].alt_text}</h4>
+                    <h4 className="case-study-title">BRIDGEWATER COLLEGE</h4>
                     
                 </div>
-            
-            
                 <div style={{ backgroundImage: `url(${editedArray[3].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[3].alt_text}</h4>
+                    <h4 className="case-study-title">FLYING BUTRESS</h4>
                     
                 </div>
-            
-            
                 <div style={{ backgroundImage: `url(${editedArray[4].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[4].alt_text}</h4>
+                    <h4 className="case-study-title">ALBERMALE COUNTRY</h4>
                     
                 </div>
-            
-        </Row>
-        <Row className="case-study-row " style={{ width: '100vw' }}>
-          
                 <div style={{ backgroundImage: `url(${editedArray[5].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">Husel</h4>
+                    <h4 className="case-study-title">HUSEL</h4>
                    
                 </div>
-           
-           
                 <div style={{ backgroundImage: `url(${editedArray[6].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[6].alt_text}</h4>
+                    <h4 className="case-study-title">HOLTZMAN</h4>
                     
                 </div>
-            
                 <div style={{ backgroundImage: `url(${editedArray[7].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[7].alt_text}</h4>
+                    <h4 className="case-study-title">HARRISONBURG DOWNTOWN RENAISSANCE</h4>
                    
                 </div>
-
                 <div style={{ backgroundImage: `url(${editedArray[8].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[8].alt_text}</h4>
+                    <h4 className="case-study-title">CHRISTIAN LIGHT PUBLICATIONS</h4>
                     
                 </div>
-            
                 <div style={{ backgroundImage: `url(${editedArray[9].source_url})`}} className="case-study-div">
-                    <h4 className="case-study-title">{editedArray[9].alt_text}</h4>
+                    <h4 className="case-study-title">NIEDER CHIRO</h4>
                     
                 </div>
-            
-        </Row>
-      </Container>
+      </div>
       <style jsx>{` 
         
       `}</style>
